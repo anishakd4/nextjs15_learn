@@ -1,10 +1,10 @@
 # React Server components
 
-![react_components](pics/react_components.png)
+[<img src="./pictures/react_components.png" width="50%"/>](./pictures/react_components.png)
 
-![server_components](pics/server_components.png)
+[<img src="./pictures/server_components.png" width="50%"/>](./pictures/server_components.png)
 
-![client_components](pics/client_components.png)
+[<img src="./pictures/client_components.png" width="50%"/>](./pictures/client_components.png)
 
 # Router
 
@@ -16,14 +16,14 @@
 
 # Nested routes
 
-![nested_routes_1](pics/nested_routes_1.png)
+[<img src="./pictures/nested_routes_1.png" width="50%"/>](./pictures/nested_routes_1.png)
 
-![nested_routes_2](pics/nested_routes_2.png)
+[<img src="./pictures/nested_routes_2.png" width="50%"/>](./pictures/nested_routes_2.png)
 
-![nested_routes_3](pics/nested_routes_3.png)
+[<img src="./pictures/nested_routes_3.png" width="50%"/>](./pictures/nested_routes_3.png)
 
-![nested_routes_4](pics/nested_routes_4.png)
+[<img src="./pictures/nested_routes_4.png" width="50%"/>](./pictures/nested_routes_4.png)
 
-![nested_routes_5](pics/nested_routes_5.png)
+[<img src="./pictures/nested_routes_5.png" width="50%"/>](./pictures/nested_routes_5.png)
 
-![nested_routes_6](pics/nested_routes_6.png)
+[<img src="./pictures/nested_routes_6.png" width="50%"/>](./pictures/nested_routes_6.png)
