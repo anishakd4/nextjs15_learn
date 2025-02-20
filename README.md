@@ -108,3 +108,8 @@
 [<img src="./pics/not_found_6.png" width="50%"/>](./pics/not_found_6.png)
 
 [<img src="./pics/not_found_7.png" width="50%"/>](./pics/not_found_7.png)
+
+# File
+
+- A route only becomes publically accessible when you add page.tsx or page.jsx file to it.
+- We can safely colocate project files inside the route segements inside app directory without worrying about they accidently becoming routes themselves.
