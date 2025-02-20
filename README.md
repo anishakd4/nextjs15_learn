@@ -66,4 +66,45 @@
 
 # Nested Dynamic routes
 
-[<img src="./pics/nested_dynamic_routes_6.png" width="50%"/>](./pics/nested_dynamic_routes_6.png)
+[<img src="./pics/nested_dynamic_routes_1.png" width="50%"/>](./pics/nested_dynamic_routes_1.png)
+
+[<img src="./pics/nested_dynamic_routes_2.png" width="50%"/>](./pics/nested_dynamic_routes_2.png)
+
+# Catch all Segments
+
+- nextjs also offers optional catch all segments. /docs will show 404 page currently
+
+[<img src="./pics/catch_all_segments.png" width="50%"/>](./pics/catch_all_segments.png)
+
+[<img src="./pics/catch_all_segments_1.png" width="50%"/>](./pics/catch_all_segments_1.png)
+
+[<img src="./pics/catch_all_segments_2.png" width="50%"/>](./pics/catch_all_segments_2.png)
+
+[<img src="./pics/catch_all_segments_3.png" width="50%"/>](./pics/catch_all_segments_3.png)
+
+[<img src="./pics/catch_all_segments_4.png" width="50%"/>](./pics/catch_all_segments_4.png)
+
+[<img src="./pics/catch_all_segments_optional.png" width="50%"/>](./pics/catch_all_segments_optional.png)
+
+# Not Found Page
+
+- By default when you visit a route that doesn't exist in your route folder we will see a basic 404 page.
+- This page will work fine for development but for production site we might want a customized 404 page.
+- Not Found page can also be triggered programmatically using notFound function.
+- We can create specific notfound pages for different sections of the app.
+- Notfound component doesn't accept props. But we might more data to show different message based on the route parameters. For this we can use the `usePathname` hook from nextjs.
+- In the new React server component architecture all React components are server components by default and hooks can only be used in client components. To fix add `"use client"` at the top.
+
+[<img src="./pics/not_found_1.png" width="50%"/>](./pics/not_found_1.png)
+
+[<img src="./pics/not_found_2.png" width="50%"/>](./pics/not_found_2.png)
+
+[<img src="./pics/not_found_3.png" width="50%"/>](./pics/not_found_3.png)
+
+[<img src="./pics/not_found_4.png" width="50%"/>](./pics/not_found_4.png)
+
+[<img src="./pics/not_found_5.png" width="50%"/>](./pics/not_found_5.png)
+
+[<img src="./pics/not_found_6.png" width="50%"/>](./pics/not_found_6.png)
+
+[<img src="./pics/not_found_7.png" width="50%"/>](./pics/not_found_7.png)
