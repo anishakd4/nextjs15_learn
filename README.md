@@ -109,7 +109,40 @@
 
 [<img src="./pics/not_found_7.png" width="50%"/>](./pics/not_found_7.png)
 
-# File
+# File Colocation
 
 - A route only becomes publically accessible when you add page.tsx or page.jsx file to it.
 - We can safely colocate project files inside the route segements inside app directory without worrying about they accidently becoming routes themselves.
+
+[<img src="./pics/file_colocation_1.png" width="50%"/>](./pics/file_colocation_1.png)
+
+[<img src="./pics/file_colocation_2.png" width="50%"/>](./pics/file_colocation_2.png)
+
+[<img src="./pics/file_colocation_3.png" width="50%"/>](./pics/file_colocation_3.png)
+
+[<img src="./pics/file_colocation_4.png" width="50%"/>](./pics/file_colocation_4.png)
+
+[<img src="./pics/file_colocation_5.png" width="50%"/>](./pics/file_colocation_5.png)
+
+[<img src="./pics/file_colocation_6.png" width="50%"/>](./pics/file_colocation_6.png)
+
+# Private folders
+
+[<img src="./pics/private_folders_1.png" width="50%"/>](./pics/private_folders_1.png)
+
+[<img src="./pics/private_folders_2.png" width="50%"/>](./pics/private_folders_2.png)
+
+[<img src="./pics/private_folders_3.png" width="50%"/>](./pics/private_folders_3.png)
+
+[<img src="./pics/private_folders_4.png" width="50%"/>](./pics/private_folders_4.png)
+
+# Route groups
+
+- Route groups are the only way to share a layout between routes without affecting the url.
+- To create a route group we simply wrap the folder name in paranthesis. This tells nextjs to treat this folder as an organisational tool only and excluding it from URL path.
+
+[<img src="./pics/route_groups_1.png" width="50%"/>](./pics/route_groups_1.png)
+
+[<img src="./pics/route_groups_2.png" width="50%"/>](./pics/route_groups_2.png)
+
+[<img src="./pics/route_groups_3.png" width="50%"/>](./pics/route_groups_3.png)
