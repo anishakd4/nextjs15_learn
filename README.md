@@ -188,3 +188,9 @@
 [<img src="./pics/nested_layout_7.png" width="50%"/>](./pics/nested_layout_7.png)
 
 [<img src="./pics/nested_layout_8.png" width="50%"/>](./pics/nested_layout_8.png)
+
+# Multiple Root Layouts
+
+[<img src="./pics/multiple_root_layouts_1.png" width="50%"/>](./pics/multiple_root_layouts_1.png)
+
+[<img src="./pics/multiple_root_layouts_2.png" width="50%"/>](./pics/multiple_root_layouts_2.png)
