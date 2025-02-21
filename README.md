@@ -238,3 +238,13 @@
 [<img src="./pics/title_metadata_5.png" width="50%"/>](./pics/title_metadata_5.png)
 
 [<img src="./pics/title_metadata_6.png" width="50%"/>](./pics/title_metadata_6.png)
+
+# Links
+
+- replace replaces the current history entry with the new one.
+
+[<img src="./pics/navigation.png" width="50%"/>](./pics/navigation.png)
+
+[<img src="./pics/link_component.png" width="50%"/>](./pics/link_component.png)
+
+[<img src="./pics/link_component_replace.png" width="50%"/>](./pics/link_component_replace.png)
