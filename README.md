@@ -220,3 +220,21 @@
 [<img src="./pics/routing_metadata_19.png" width="50%"/>](./pics/routing_metadata_9.png)
 
 [<img src="./pics/routing_metadata_10.png" width="50%"/>](./pics/routing_metadata_10.png)
+
+# Title metadata
+
+- Title.default acts as a fallback for any child route that doesn't specify a title.
+- Title.template is used when we want consistent prefix and suffix to the route title.
+- Sometimes when we want to break free from the template pattern set by parent segment. This is exactly what Title.absolute does.
+
+[<img src="./pics/title_metadata_1.png" width="50%"/>](./pics/title_metadata_1.png)
+
+[<img src="./pics/title_metadata_2.png" width="50%"/>](./pics/title_metadata_2.png)
+
+[<img src="./pics/title_metadata_3.png" width="50%"/>](./pics/title_metadata_3.png)
+
+[<img src="./pics/title_metadata_4.png" width="50%"/>](./pics/title_metadata_4.png)
+
+[<img src="./pics/title_metadata_5.png" width="50%"/>](./pics/title_metadata_5.png)
+
+[<img src="./pics/title_metadata_6.png" width="50%"/>](./pics/title_metadata_6.png)
