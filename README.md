@@ -146,3 +146,45 @@
 [<img src="./pics/route_groups_2.png" width="50%"/>](./pics/route_groups_2.png)
 
 [<img src="./pics/route_groups_3.png" width="50%"/>](./pics/route_groups_3.png)
+
+# Layouts
+
+- layout.tsx file in the app folder is called the route layout and it is not optional. Even if you delete it nextjs will auto generate it.
+- Every layout component needs a children prop. This is where our page content will go.
+
+[<img src="./pics/layouts_1.png" width="50%"/>](./pics/layouts_1.png)
+
+[<img src="./pics/layouts_2.png" width="50%"/>](./pics/layouts_2.png)
+
+[<img src="./pics/layouts_3.png" width="50%"/>](./pics/layouts_3.png)
+
+[<img src="./pics/layouts_4.png" width="50%"/>](./pics/layouts_4.png)
+
+[<img src="./pics/layouts_5.png" width="50%"/>](./pics/layouts_5.png)
+
+[<img src="./pics/layouts_6.png" width="50%"/>](./pics/layouts_6.png)
+
+[<img src="./pics/layouts_7.png" width="50%"/>](./pics/layouts_7.png)
+
+[<img src="./pics/layouts_8.png" width="50%"/>](./pics/layouts_8.png)
+
+# Nested layouts
+
+- First nextjs renders the root layout where the children prop representing the productId folder content. then productId layout kicks in replacing the children prop in the root layout. Finally the actual content from the page.tsx from the productId fills the children prop in the productId layout.
+- This pattern gives you the power to create specialized layouts for the different parts of the application.
+
+[<img src="./pics/nested_layout_1.png" width="50%"/>](./pics/nested_layout_1.png)
+
+[<img src="./pics/nested_layout_2.png" width="50%"/>](./pics/nested_layout_2.png)
+
+[<img src="./pics/nested_layout_3.png" width="50%"/>](./pics/nested_layout_3.png)
+
+[<img src="./pics/nested_layout_4.png" width="50%"/>](./pics/nested_layout_4.png)
+
+[<img src="./pics/nested_layout_5.png" width="50%"/>](./pics/nested_layout_5.png)
+
+[<img src="./pics/nested_layout_6.png" width="50%"/>](./pics/nested_layout_6.png)
+
+[<img src="./pics/nested_layout_7.png" width="50%"/>](./pics/nested_layout_7.png)
+
+[<img src="./pics/nested_layout_8.png" width="50%"/>](./pics/nested_layout_8.png)
