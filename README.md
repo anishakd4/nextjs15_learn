@@ -194,3 +194,29 @@
 [<img src="./pics/multiple_root_layouts_1.png" width="50%"/>](./pics/multiple_root_layouts_1.png)
 
 [<img src="./pics/multiple_root_layouts_2.png" width="50%"/>](./pics/multiple_root_layouts_2.png)
+
+# Routing Metadata And dynamic metadata
+
+- While both page and layout can have metadata, page's metadata take priority when they overlap.
+- When routes have multiple metadata objects, they merge together with deeper segments taking priority.
+- Metadata won't work with pages marked with `use client` directive. The solution is to keep your metadata in server components and extract any client side functionality in separate component.
+
+[<img src="./pics/routing_metadata_1.png" width="50%"/>](./pics/routing_metadata_1.png)
+
+[<img src="./pics/routing_metadata_2.png" width="50%"/>](./pics/routing_metadata_2.png)
+
+[<img src="./pics/routing_metadata_3.png" width="50%"/>](./pics/routing_metadata_3.png)
+
+[<img src="./pics/routing_metadata_4.png" width="50%"/>](./pics/routing_metadata_4.png)
+
+[<img src="./pics/routing_metadata_5.png" width="50%"/>](./pics/routing_metadata_5.png)
+
+[<img src="./pics/routing_metadata_6.png" width="50%"/>](./pics/routing_metadata_6.png)
+
+[<img src="./pics/routing_metadata_7.png" width="50%"/>](./pics/routing_metadata_7.png)
+
+[<img src="./pics/routing_metadata_8.png" width="50%"/>](./pics/routing_metadata_8.png)
+
+[<img src="./pics/routing_metadata_19.png" width="50%"/>](./pics/routing_metadata_9.png)
+
+[<img src="./pics/routing_metadata_10.png" width="50%"/>](./pics/routing_metadata_10.png)
