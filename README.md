@@ -284,3 +284,19 @@
 [<img src="./pics/navigation_programmatically_5.png" width="50%"/>](./pics/navigation_programmatically_5.png)
 
 [<img src="./pics/navigation_programmatically_6.png" width="50%"/>](./pics/navigation_programmatically_6.png)
+
+# Templates
+
+- Layout only mounts new page content while keeping the common elements intact. They don't remount the shared components which lead to better performance.
+- Sometimes you might need the layout to create a fresh instance for each child component during navigation. This could be useful for scenarios like implemening enter or exit animations or running useEffect hooks when routes change. This is where template files come in handy as an alternative to layout files.
+- We can actually use both layout.tsx and template.tsx together. In this case the layout renders first, the its children are replace by template components output
+
+[<img src="./pics/templates_1.png" width="50%"/>](./pics/templates_1.png)
+
+[<img src="./pics/templates_2.png" width="50%"/>](./pics/templates_2.png)
+
+[<img src="./pics/templates_3.png" width="50%"/>](./pics/templates_3.png)
+
+[<img src="./pics/templates_4.png" width="50%"/>](./pics/templates_4.png)
+
+[<img src="./pics/templates_5.png" width="50%"/>](./pics/templates_5.png)
