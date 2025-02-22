@@ -254,3 +254,14 @@
 - nextjs gives us the usePathname hook to help us figure out which link is active.
 
 [<img src="./pics/active_link.png" width="50%"/>](./pics/active_link.png)
+
+# params and searchParams
+
+- We are able to await params and searchParams in news articles component because it is server component. If this was a client component we would get a error because client component don't support async await.
+- To access params and searchParams in client component we need to use `use` hook.
+
+[<img src="./pics/params_searchparams_1.png" width="50%"/>](./pics/params_searchparams_1.png)
+
+[<img src="./pics/params_searchparams_2.png" width="50%"/>](./pics/params_searchparams_2.png)
+
+[<img src="./pics/params_searchparams_3.png" width="50%"/>](./pics/params_searchparams_3.png)
