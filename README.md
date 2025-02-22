@@ -300,3 +300,21 @@
 [<img src="./pics/templates_4.png" width="50%"/>](./pics/templates_4.png)
 
 [<img src="./pics/templates_5.png" width="50%"/>](./pics/templates_5.png)
+
+# Loading UI
+
+- This loading.tsx file automatically wraps the page.tsx file and its nested children within a react suspense boundary
+
+[<img src="./pics/loading_1.png" width="50%"/>](./pics/loading_1.png)
+
+[<img src="./pics/loading_2.png" width="50%"/>](./pics/loading_2.png)
+
+[<img src="./pics/loading_3.png" width="50%"/>](./pics/loading_3.png)
+
+[<img src="./pics/loading_4.png" width="50%"/>](./pics/loading_4.png)
+
+[<img src="./pics/loading_5.png" width="50%"/>](./pics/loading_5.png)
+
+[<img src="./pics/loading_6.png" width="50%"/>](./pics/loading_6.png)
+
+[<img src="./pics/loading_7.png" width="50%"/>](./pics/loading_7.png)
