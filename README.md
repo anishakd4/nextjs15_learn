@@ -248,3 +248,9 @@
 [<img src="./pics/link_component.png" width="50%"/>](./pics/link_component.png)
 
 [<img src="./pics/link_component_replace.png" width="50%"/>](./pics/link_component_replace.png)
+
+# Active Links
+
+- nextjs gives us the usePathname hook to help us figure out which link is active.
+
+[<img src="./pics/active_link.png" width="50%"/>](./pics/active_link.png)
