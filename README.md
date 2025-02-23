@@ -354,3 +354,15 @@
 - reload function ensures that the refresh is deferred until the next render phase allowing react to handle any pending state updates before proceeding.
 
 # Handling Errors in Nested Routes
+
+[<img src="./pics/error_nested_routes_1.png" width="50%"/>](./pics/error_nested_routes_1.png)
+
+[<img src="./pics/error_nested_routes_2.png" width="50%"/>](./pics/error_nested_routes_2.png)
+
+[<img src="./pics/error_nested_routes_3.png" width="50%"/>](./pics/error_nested_routes_3.png)
+
+[<img src="./pics/error_nested_routes_4.png" width="50%"/>](./pics/error_nested_routes_4.png)
+
+[<img src="./pics/error_nested_routes_5.png" width="50%"/>](./pics/error_nested_routes_5.png)
+
+[<img src="./pics/error_nested_routes_6.png" width="50%"/>](./pics/error_nested_routes_6.png)
