@@ -366,3 +366,29 @@
 [<img src="./pics/error_nested_routes_5.png" width="50%"/>](./pics/error_nested_routes_5.png)
 
 [<img src="./pics/error_nested_routes_6.png" width="50%"/>](./pics/error_nested_routes_6.png)
+
+# Handling Errors in Layouts
+
+[<img src="./pics/error_in_layout_1.png" width="50%"/>](./pics/error_in_layout_1.png)
+
+[<img src="./pics/error_in_layout_2.png" width="50%"/>](./pics/error_in_layout_2.png)
+
+[<img src="./pics/error_in_layout_3.png" width="50%"/>](./pics/error_in_layout_3.png)
+
+[<img src="./pics/error_in_layout_4.png" width="50%"/>](./pics/error_in_layout_4.png)
+
+# Handling Global Errors
+
+- global-error.tsx should export a react component that will be rendered when an error is encountered in the root layout or any of its nested route in the absence of a error boundary.
+- We don't see global error layout in dev run, we can only see that in action in production environment.
+- global-error.tsx needs to includes its own html and body tags because when this error boundary kicks in, it completely replaces your root layout
+
+[<img src="./pics/global_error_1.png" width="50%"/>](./pics/global_error_1.png)
+
+[<img src="./pics/global_error_2.png" width="50%"/>](./pics/global_error_2.png)
+
+[<img src="./pics/global_error_3.png" width="50%"/>](./pics/global_error_3.png)
+
+[<img src="./pics/global_error_4.png" width="50%"/>](./pics/global_error_4.png)
+
+# Parallel Routes
