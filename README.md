@@ -345,3 +345,12 @@
 [<img src="./pics/error_handling_7.png" width="50%"/>](./pics/error_handling_7.png)
 
 [<img src="./pics/error_handling_8.png" width="50%"/>](./pics/error_handling_8.png)
+
+# Recovering from Errors
+
+- Apart from the error prop, the error boundary in error.tsx provides us with another useful prop, the reset function. reset function helps to retry rendering the component in page.tsx.
+- If we keep hitting the `try again` button, we will keep hitting the error again and again. This is because the retry function will attempt to re render client side, but converting the `reviewId` component to client side just to handle error will be a overkill
+- To attempt server side recovery, we will need to rely on startTransition from react and useRouter from nextjs.
+- reload function ensures that the refresh is deferred until the next render phase allowing react to handle any pending state updates before proceeding.
+
+# Handling Errors in Nested Routes
