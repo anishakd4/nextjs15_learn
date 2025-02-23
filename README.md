@@ -324,3 +324,24 @@
 [<img src="./pics/loading_6.png" width="50%"/>](./pics/loading_6.png)
 
 [<img src="./pics/loading_7.png" width="50%"/>](./pics/loading_7.png)
+
+# Error handling
+
+- Error boundaries must be client component.
+- ErrorBoundary component receive the error as a prop.
+
+[<img src="./pics/error_handling_1.png" width="50%"/>](./pics/error_handling_1.png)
+
+[<img src="./pics/error_handling_2.png" width="50%"/>](./pics/error_handling_2.png)
+
+[<img src="./pics/error_handling_3.png" width="50%"/>](./pics/error_handling_3.png)
+
+[<img src="./pics/error_handling_4.png" width="50%"/>](./pics/error_handling_4.png)
+
+[<img src="./pics/error_handling_5.png" width="50%"/>](./pics/error_handling_5.png)
+
+[<img src="./pics/error_handling_6.png" width="50%"/>](./pics/error_handling_6.png)
+
+[<img src="./pics/error_handling_7.png" width="50%"/>](./pics/error_handling_7.png)
+
+[<img src="./pics/error_handling_8.png" width="50%"/>](./pics/error_handling_8.png)
