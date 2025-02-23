@@ -392,3 +392,34 @@
 [<img src="./pics/global_error_4.png" width="50%"/>](./pics/global_error_4.png)
 
 # Parallel Routes
+
+- slots are not route segment and don't affect your url structure
+- A children prop is actually an implicit slot that doesn't needs its own folder. `complex-dashboard/page.tsx` is same as `complex-dashboard/@children/page.tsx`
+
+[<img src="./pics/parallel_routes_1.png" width="50%"/>](./pics/parallel_routes_1.png)
+
+[<img src="./pics/parallel_routes_2.png" width="50%"/>](./pics/parallel_routes_2.png)
+
+[<img src="./pics/parallel_routes_3.png" width="50%"/>](./pics/parallel_routes_3.png)
+
+[<img src="./pics/parallel_routes_4.png" width="50%"/>](./pics/parallel_routes_4.png)
+
+[<img src="./pics/parallel_routes_5.png" width="50%"/>](./pics/parallel_routes_5.png)
+
+[<img src="./pics/parallel_routes_6.png" width="50%"/>](./pics/parallel_routes_6.png)
+
+[<img src="./pics/parallel_routes_7.png" width="50%"/>](./pics/parallel_routes_7.png)
+
+[<img src="./pics/parallel_routes_8.png" width="50%"/>](./pics/parallel_routes_8.png)
+
+[<img src="./pics/parallel_routes_9.png" width="50%"/>](./pics/parallel_routes_9.png)
+
+[<img src="./pics/parallel_routes_10.png" width="50%"/>](./pics/parallel_routes_10.png)
+
+[<img src="./pics/parallel_routes_11.png" width="50%"/>](./pics/parallel_routes_11.png)
+
+[<img src="./pics/parallel_routes_12.png" width="50%"/>](./pics/parallel_routes_12.png)
+
+[<img src="./pics/parallel_routes_13.png" width="50%"/>](./pics/parallel_routes_13.png)
+
+[<img src="./pics/parallel_routes_14.png" width="50%"/>](./pics/parallel_routes_14.png)
