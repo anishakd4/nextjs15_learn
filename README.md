@@ -423,3 +423,20 @@
 [<img src="./pics/parallel_routes_13.png" width="50%"/>](./pics/parallel_routes_13.png)
 
 [<img src="./pics/parallel_routes_14.png" width="50%"/>](./pics/parallel_routes_14.png)
+
+# Unmatched Routes
+
+- archived is a regular route folder not a slot.
+- when we visit `http://localhost:3000/complex-dashboard` all slots how their respective content. But when we visit `http://localhost:3000/complex-dashboard/archived`, only notifications slot has matching content. The other three slots children, user and revenue become unmatched.
+
+[<img src="./pics/unmatched_routes_1.png" width="50%"/>](./pics/unmatched_routes_1.png)
+
+[<img src="./pics/unmatched_routes_2.png" width="50%"/>](./pics/unmatched_routes_2.png)
+
+[<img src="./pics/unmatched_routes_3.png" width="50%"/>](./pics/unmatched_routes_3.png)
+
+[<img src="./pics/unmatched_routes_4.png" width="50%"/>](./pics/unmatched_routes_4.png)
+
+[<img src="./pics/unmatched_routes_5.png" width="50%"/>](./pics/unmatched_routes_5.png)
+
+[<img src="./pics/unmatched_routes_6.png" width="50%"/>](./pics/unmatched_routes_6.png)
