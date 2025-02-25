@@ -506,3 +506,29 @@
 [<img src="./pics/route_handler_13.png" width="50%"/>](./pics/route_handler_13.png)
 
 # Handling GET Requests
+
+[<img src="./pics/get_request_1.png" width="50%"/>](./pics/get_request_1.png)
+
+[<img src="./pics/get_request_2.png" width="50%"/>](./pics/get_request_2.png)
+
+[<img src="./pics/get_request_3.png" width="50%"/>](./pics/get_request_3.png)
+
+[<img src="./pics/get_request_4.png" width="50%"/>](./pics/get_request_4.png)
+
+[<img src="./pics/get_request_5.png" width="50%"/>](./pics/get_request_5.png)
+
+[<img src="./pics/get_request_6.png" width="50%"/>](./pics/get_request_6.png)
+
+# Dynamic Route Handlers
+
+[<img src="./pics/dynamic_route_handler_1.png" width="50%"/>](./pics/dynamic_route_handler_1.png)
+
+[<img src="./pics/dynamic_route_handler_2.png" width="50%"/>](./pics/dynamic_route_handler_2.png)
+
+# patch Request
+
+[<img src="./pics/patch_request.png" width="50%"/>](./pics/patch_request.png)
+
+# Delete Request
+
+[<img src="./pics/delete_request.png" width="50%"/>](./pics/delete_request.png)
