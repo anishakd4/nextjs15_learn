@@ -440,3 +440,35 @@
 [<img src="./pics/unmatched_routes_5.png" width="50%"/>](./pics/unmatched_routes_5.png)
 
 [<img src="./pics/unmatched_routes_6.png" width="50%"/>](./pics/unmatched_routes_6.png)
+
+# Conditional routes
+
+[<img src="./pics/conditional_routes_1.png" width="50%"/>](./pics/conditional_routes_1.png)
+
+[<img src="./pics/conditional_routes_2.png" width="50%"/>](./pics/conditional_routes_2.png)
+
+[<img src="./pics/conditional_routes_3.png" width="50%"/>](./pics/conditional_routes_3.png)
+
+# Intercepting Routes
+
+[<img src="./pics/intercepting_routes_1.png" width="50%"/>](./pics/intercepting_routes_1.png)
+
+[<img src="./pics/intercepting_routes_2.png" width="50%"/>](./pics/intercepting_routes_2.png)
+
+[<img src="./pics/intercepting_routes_3.png" width="50%"/>](./pics/intercepting_routes_3.png)
+
+[<img src="./pics/intercepting_routes_4.png" width="50%"/>](./pics/intercepting_routes_4.png)
+
+[<img src="./pics/intercepting_routes_5.png" width="50%"/>](./pics/intercepting_routes_5.png)
+
+[<img src="./pics/intercepting_routes_6.png" width="50%"/>](./pics/intercepting_routes_6.png)
+
+[<img src="./pics/intercepting_routes_7.png" width="50%"/>](./pics/intercepting_routes_7.png)
+
+[<img src="./pics/intercepting_routes_8.png" width="50%"/>](./pics/intercepting_routes_8.png)
+
+[<img src="./pics/intercepting_routes_9.png" width="50%"/>](./pics/intercepting_routes_9.png)
+
+# Parallel Intercepting Routes
+
+- photo-feed folder has an implementation
