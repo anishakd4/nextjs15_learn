@@ -532,3 +532,39 @@
 # Delete Request
 
 [<img src="./pics/delete_request.png" width="50%"/>](./pics/delete_request.png)
+
+# URL Query Parameters
+
+- Although we are using standard request API. In the context of Nextjs, the type we are dealing with NextRequest
+
+[<img src="./pics/query_parameters_1.png" width="50%"/>](./pics/query_parameters_1.png)
+
+[<img src="./pics/query_parameters_2.png" width="50%"/>](./pics/query_parameters_2.png)
+
+[<img src="./pics/query_parameters_3.png" width="50%"/>](./pics/query_parameters_3.png)
+
+[<img src="./pics/query_parameters_4.png" width="50%"/>](./pics/query_parameters_4.png)
+
+# Headers in Route Handlers
+
+- headers returned from `headers() `function are readonly. To set new headers you will need to set a new response with custom headers.
+
+[<img src="./pics/header_route_handlers_1.png" width="50%"/>](./pics/header_route_handlers_1.png)
+
+[<img src="./pics/header_route_handlers_2.png" width="50%"/>](./pics/header_route_handlers_2.png)
+
+[<img src="./pics/header_route_handlers_3.png" width="50%"/>](./pics/header_route_handlers_3.png)
+
+[<img src="./pics/header_route_handlers_4.png" width="50%"/>](./pics/header_route_handlers_4.png)
+
+[<img src="./pics/header_route_handlers_5.png" width="50%"/>](./pics/header_route_handlers_5.png)
+
+[<img src="./pics/header_route_handlers_6.png" width="50%"/>](./pics/header_route_handlers_6.png)
+
+[<img src="./pics/header_route_handlers_7.png" width="50%"/>](./pics/header_route_handlers_7.png)
+
+[<img src="./pics/header_route_handlers_8.png" width="50%"/>](./pics/header_route_handlers_8.png)
+
+[<img src="./pics/header_route_handlers_9.png" width="50%"/>](./pics/header_route_handlers_9.png)
+
+[<img src="./pics/header_route_handlers_10.png" width="50%"/>](./pics/header_route_handlers_10.png)
