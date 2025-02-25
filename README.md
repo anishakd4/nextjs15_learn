@@ -472,3 +472,37 @@
 # Parallel Intercepting Routes
 
 - photo-feed folder has an implementation
+
+# Route handler
+
+- We need to watch out for conflicts between page routes and route handlers. In this case route.ts will take over by default.
+- Route handler allows you to create custom request handlers for a given route. They are defined in a `route.js` or `route.ts`
+- route.ts file at the same route level as page.tsx will resolve in a conflict and page will not be served. Route handler will handle the request.
+
+[<img src="./pics/route_handler_1.png" width="50%"/>](./pics/route_handler_1.png)
+
+[<img src="./pics/route_handler_2.png" width="50%"/>](./pics/route_handler_2.png)
+
+[<img src="./pics/route_handler_3.png" width="50%"/>](./pics/route_handler_3.png)
+
+[<img src="./pics/route_handler_4.png" width="50%"/>](./pics/route_handler_4.png)
+
+[<img src="./pics/route_handler_5.png" width="50%"/>](./pics/route_handler_5.png)
+
+[<img src="./pics/route_handler_6.png" width="50%"/>](./pics/route_handler_6.png)
+
+[<img src="./pics/route_handler_7.png" width="50%"/>](./pics/route_handler_7.png)
+
+[<img src="./pics/route_handler_8.png" width="50%"/>](./pics/route_handler_8.png)
+
+[<img src="./pics/route_handler_9.png" width="50%"/>](./pics/route_handler_9.png)
+
+[<img src="./pics/route_handler_10.png" width="50%"/>](./pics/route_handler_10.png)
+
+[<img src="./pics/route_handler_11.png" width="50%"/>](./pics/route_handler_11.png)
+
+[<img src="./pics/route_handler_12.png" width="50%"/>](./pics/route_handler_12.png)
+
+[<img src="./pics/route_handler_13.png" width="50%"/>](./pics/route_handler_13.png)
+
+# Handling GET Requests
