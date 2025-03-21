@@ -568,3 +568,5 @@
 [<img src="./pics/header_route_handlers_9.png" width="50%"/>](./pics/header_route_handlers_9.png)
 
 [<img src="./pics/header_route_handlers_10.png" width="50%"/>](./pics/header_route_handlers_10.png)
+
+# Cookies in Route Handlers
