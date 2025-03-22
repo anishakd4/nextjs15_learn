@@ -117,6 +117,16 @@
 
 [<img src="./pics/catch_all_segments_optional.png" width="75%"/>](./pics/catch_all_segments_optional.png)
 
+[<img src="./pics/catch_all_segments_docs_1.png" width="75%"/>](./pics/catch_all_segments_docs_1.png)
+
+[<img src="./pics/catch_all_segments_docs_2.png" width="75%"/>](./pics/catch_all_segments_docs_2.png)
+
+[<img src="./pics/catch_all_segments_docs_3.png" width="75%"/>](./pics/catch_all_segments_docs_3.png)
+
+[<img src="./pics/catch_all_segments_docs_4.png" width="75%"/>](./pics/catch_all_segments_docs_4.png)
+
+[<img src="./pics/catch_all_segments_docs_5.png" width="75%"/>](./pics/catch_all_segments_docs_5.png)
+
 # Not Found Page
 
 - By default when you visit a route that doesn't exist in your route folder we will see a basic 404 page.
