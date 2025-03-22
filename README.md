@@ -150,6 +150,12 @@
 
 [<img src="./pics/not_found_7.png" width="75%"/>](./pics/not_found_7.png)
 
+[<img src="./pics/not_found_file_1.png" width="75%"/>](./pics/not_found_file_1.png)
+
+[<img src="./pics/not_found_file_2.png" width="75%"/>](./pics/not_found_file_2.png)
+
+[<img src="./pics/not_found_file_3.png" width="75%"/>](./pics/not_found_file_3.png)
+
 # File Colocation
 
 - A route only becomes publically accessible when you add page.tsx or page.jsx file to it.
