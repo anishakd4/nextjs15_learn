@@ -54,6 +54,10 @@
 
 [<img src="./pics/nested_routes_6.png" width="50%"/>](./pics/nested_routes_6.png)
 
+[<img src="./pics/blog_default_react_component.png" width="50%"/>](./pics/blog_default_react_component.png)
+
+[<img src="./pics/first_blog_default_react_component.png" width="50%"/>](./pics/first_blog_default_react_component.png)
+
 # Dynamic routes
 
 - Every page in App router receives route parameters through the param props.
