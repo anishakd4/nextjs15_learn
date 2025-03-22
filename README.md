@@ -95,6 +95,12 @@
 
 [<img src="./pics/nested_dynamic_routes_2.png" width="75%"/>](./pics/nested_dynamic_routes_2.png)
 
+[<img src="./pics/nested_dynamic_routes_3.png" width="75%"/>](./pics/nested_dynamic_routes_3.png)
+
+[<img src="./pics/nested_dynamic_routes_4.png" width="75%"/>](./pics/nested_dynamic_routes_4.png)
+
+[<img src="./pics/nested_dynamic_routes_5.png" width="75%"/>](./pics/nested_dynamic_routes_5.png)
+
 # Catch all Segments
 
 - nextjs also offers optional catch all segments. /docs will show 404 page currently
