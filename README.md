@@ -60,6 +60,7 @@
 
 # Dynamic routes
 
+- Nextjs treats a folder name in square brackets as a dynamic segment make our routes dynamic and flexible
 - Every page in App router receives route parameters through the param props.
 - The type of params is a Promise that resolves to an object containing the dynamic segments as key value pair.
 - The nice about server components is that we can use async await to resolve the promise and access the dynamic segemnt
@@ -73,6 +74,18 @@
 [<img src="./pics/dynamic_routes_4.png" width="75%"/>](./pics/dynamic_routes_4.png)
 
 [<img src="./pics/dynamic_routes_5.png" width="75%"/>](./pics/dynamic_routes_5.png)
+
+[<img src="./pics/product_list_component_1.png" width="75%"/>](./pics/product_list_component_1.png)
+
+[<img src="./pics/product_list_component_2.png" width="75%"/>](./pics/product_list_component_2.png)
+
+[<img src="./pics/productid_component_1.png" width="75%"/>](./pics/productid_component_1.png)
+
+[<img src="./pics/productid_component_2.png" width="75%"/>](./pics/productid_component_2.png)
+
+[<img src="./pics/productid_component_3.png" width="75%"/>](./pics/productid_component_3.png)
+
+[<img src="./pics/productid_component_4.png" width="75%"/>](./pics/productid_component_4.png)
 
 # Nested Dynamic routes
 
