@@ -87,6 +87,8 @@
 
 [<img src="./pics/productid_component_4.png" width="75%"/>](./pics/productid_component_4.png)
 
+[<img src="./pics/productid_component_5.png" width="75%"/>](./pics/productid_component_5.png)
+
 # Nested Dynamic routes
 
 [<img src="./pics/nested_dynamic_routes_1.png" width="75%"/>](./pics/nested_dynamic_routes_1.png)
