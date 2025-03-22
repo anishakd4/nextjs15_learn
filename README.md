@@ -159,7 +159,8 @@
 # File Colocation
 
 - A route only becomes publically accessible when you add page.tsx or page.jsx file to it.
-- We can safely colocate project files inside the route segements inside app directory without worrying about they accidently becoming routes themselves.
+- Even when a route is public with a page.tsx file, the browser only gets what is returned by page.tsx and it has to be a default export app component.
+- We can safely colocate project files inside the route segments inside app directory without worrying about they accidently becoming routes themselves.
 
 [<img src="./pics/file_colocation_1.png" width="75%"/>](./pics/file_colocation_1.png)
 
