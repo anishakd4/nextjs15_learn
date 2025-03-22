@@ -34,6 +34,12 @@
 
 - In nextjs we don't need to install and configure a router. Our folder and file structure does all the heavylifting
 
+[<img src="./pics/routing_demo_understanding_1.png" width="50%"/>](./pics/routing_demo_understanding_1.png)
+
+[<img src="./pics/routing_demo_understanding_2.png" width="50%"/>](./pics/routing_demo_understanding_2.png)
+
+[<img src="./pics/routing_demo_understanding_3.png" width="50%"/>](./pics/routing_demo_understanding_3.png)
+
 # Nested routes
 
 [<img src="./pics/nested_routes_1.png" width="50%"/>](./pics/nested_routes_1.png)
