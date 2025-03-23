@@ -253,6 +253,14 @@
 
 [<img src="./pics/routing_metadata_2.png" width="75%"/>](./pics/routing_metadata_2.png)
 
+[<img src="./pics/routing_metadata_11.png" width="75%"/>](./pics/routing_metadata_11.png)
+
+[<img src="./pics/routing_metadata_12.png" width="75%"/>](./pics/routing_metadata_12.png)
+
+[<img src="./pics/routing_metadata_13.png" width="75%"/>](./pics/routing_metadata_13.png)
+
+[<img src="./pics/routing_metadata_14.png" width="75%"/>](./pics/routing_metadata_14.png)
+
 [<img src="./pics/routing_metadata_3.png" width="75%"/>](./pics/routing_metadata_3.png)
 
 [<img src="./pics/routing_metadata_4.png" width="75%"/>](./pics/routing_metadata_4.png)
@@ -268,6 +276,10 @@
 [<img src="./pics/routing_metadata_9.png" width="75%"/>](./pics/routing_metadata_9.png)
 
 [<img src="./pics/routing_metadata_10.png" width="75%"/>](./pics/routing_metadata_10.png)
+
+[<img src="./pics/routing_metadata_15.png" width="75%"/>](./pics/routing_metadata_15.png)
+
+[<img src="./pics/routing_metadata_16.png" width="75%"/>](./pics/routing_metadata_16.png)
 
 # Title metadata
 
