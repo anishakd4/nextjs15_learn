@@ -265,7 +265,7 @@
 
 [<img src="./pics/routing_metadata_8.png" width="75%"/>](./pics/routing_metadata_8.png)
 
-[<img src="./pics/routing_metadata_19.png" width="75%"/>](./pics/routing_metadata_9.png)
+[<img src="./pics/routing_metadata_9.png" width="75%"/>](./pics/routing_metadata_9.png)
 
 [<img src="./pics/routing_metadata_10.png" width="75%"/>](./pics/routing_metadata_10.png)
 
