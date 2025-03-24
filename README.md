@@ -287,6 +287,16 @@
 - Title.template is used when we want consistent prefix and suffix to the route title.
 - Sometimes when we want to break free from the template pattern set by parent segment. This is exactly what Title.absolute does.
 
+[<img src="./pics/title_metadata_7.png" width="75%"/>](./pics/title_metadata_7.png)
+
+[<img src="./pics/title_metadata_8.png" width="75%"/>](./pics/title_metadata_8.png)
+
+[<img src="./pics/title_metadata_9.png" width="75%"/>](./pics/title_metadata_9.png)
+
+[<img src="./pics/title_metadata_10.png" width="75%"/>](./pics/title_metadata_10.png)
+
+[<img src="./pics/title_metadata_11.png" width="75%"/>](./pics/title_metadata_11.png)
+
 [<img src="./pics/title_metadata_1.png" width="75%"/>](./pics/title_metadata_1.png)
 
 [<img src="./pics/title_metadata_2.png" width="75%"/>](./pics/title_metadata_2.png)
