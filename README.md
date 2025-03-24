@@ -404,6 +404,10 @@
 
 [<img src="./pics/templates_8.png" width="75%"/>](./pics/templates_8.png)
 
+[<img src="./pics/templates_demo_1.png" width="75%"/>](./pics/templates_demo_1.png)
+
+[<img src="./pics/templates_demo_2.png" width="75%"/>](./pics/templates_demo_2.png)
+
 # Loading UI
 
 - This loading.tsx file automatically wraps the page.tsx file and its nested children within a react suspense boundary
