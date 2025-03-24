@@ -368,7 +368,7 @@
 - useRouter only works in client component.
 - router.push and router.replace both are available. To replace the current page in the history stack instead of adding a new entry, for the we need to use router.replace rather than router.push.
 - We can also use router.back to go back to the previous page and move forward to move forward in the history.
-- We can use `redirect` function.
+- We can also use `redirect` function.
 
 [<img src="./pics/navigation_programmatically_1.png" width="75%"/>](./pics/navigation_programmatically_1.png)
 
