@@ -339,6 +339,10 @@
 
 - nextjs gives us the usePathname hook to help us figure out which link is active.
 
+[<img src="./pics/active_link_1.png" width="75%"/>](./pics/active_link_1.png)
+
+[<img src="./pics/active_link_2.png" width="75%"/>](./pics/active_link_2.png)
+
 [<img src="./pics/active_link.png" width="75%"/>](./pics/active_link.png)
 
 # params and searchParams
