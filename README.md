@@ -349,12 +349,19 @@
 
 - We are able to await params and searchParams in news articles component because it is server component. If this was a client component we would get a error because client component don't support async await.
 - To access params and searchParams in client component we need to use `use` hook.
+- So async await for server components and `use` hook for client components.
 
 [<img src="./pics/params_searchparams_1.png" width="75%"/>](./pics/params_searchparams_1.png)
 
 [<img src="./pics/params_searchparams_2.png" width="75%"/>](./pics/params_searchparams_2.png)
 
 [<img src="./pics/params_searchparams_3.png" width="75%"/>](./pics/params_searchparams_3.png)
+
+[<img src="./pics/params_searchparams_4.png" width="75%"/>](./pics/params_searchparams_4.png)
+
+[<img src="./pics/params_searchparams_5.png" width="75%"/>](./pics/params_searchparams_5.png)
+
+[<img src="./pics/params_searchparams_6.png" width="75%"/>](./pics/params_searchparams_6.png)
 
 # Navigating Programmatically
 
