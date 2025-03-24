@@ -327,6 +327,12 @@
 
 [<img src="./pics/link_component.png" width="75%"/>](./pics/link_component.png)
 
+[<img src="./pics/link_component_replace_1.png" width="75%"/>](./pics/link_component_replace_1.png)
+
+[<img src="./pics/link_component_replace_2.png" width="75%"/>](./pics/link_component_replace_2.png)
+
+[<img src="./pics/link_component_replace_3.png" width="75%"/>](./pics/link_component_replace_3.png)
+
 [<img src="./pics/link_component_replace.png" width="75%"/>](./pics/link_component_replace.png)
 
 # Active Links
