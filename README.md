@@ -456,6 +456,12 @@
 - To attempt server side recovery, we will need to rely on startTransition from react and useRouter from nextjs.
 - reload function ensures that the refresh is deferred until the next render phase allowing react to handle any pending state updates before proceeding.
 
+[<img src="./pics/recovering_from_error_1.png" width="75%"/>](./pics/recovering_from_error_1.png)
+
+[<img src="./pics/recovering_from_error_2.png" width="75%"/>](./pics/recovering_from_error_2.png)
+
+[<img src="./pics/recovering_from_error_3.png" width="75%"/>](./pics/recovering_from_error_3.png)
+
 # Handling Errors in Nested Routes
 
 [<img src="./pics/error_nested_routes_1.png" width="75%"/>](./pics/error_nested_routes_1.png)
