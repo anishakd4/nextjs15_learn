@@ -478,6 +478,8 @@
 
 # Handling Errors in Layouts
 
+- error.tsx won't handle errors from a layout.tsx file in the same segment. The solution can be to move the error.tsx file up to the layout.tsx parent segment.
+
 [<img src="./pics/error_in_layout_1.png" width="75%"/>](./pics/error_in_layout_1.png)
 
 [<img src="./pics/error_in_layout_2.png" width="75%"/>](./pics/error_in_layout_2.png)
@@ -485,6 +487,8 @@
 [<img src="./pics/error_in_layout_3.png" width="75%"/>](./pics/error_in_layout_3.png)
 
 [<img src="./pics/error_in_layout_4.png" width="75%"/>](./pics/error_in_layout_4.png)
+
+[<img src="./pics/error_in_layout_5.png" width="75%"/>](./pics/error_in_layout_5.png)
 
 # Handling Global Errors
 
