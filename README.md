@@ -435,6 +435,8 @@
 
 [<img src="./pics/error_handling_2.png" width="75%"/>](./pics/error_handling_2.png)
 
+[<img src="./pics/error_handling_9.png" width="75%"/>](./pics/error_handling_9.png)
+
 [<img src="./pics/error_handling_3.png" width="75%"/>](./pics/error_handling_3.png)
 
 [<img src="./pics/error_handling_4.png" width="75%"/>](./pics/error_handling_4.png)
