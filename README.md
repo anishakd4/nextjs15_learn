@@ -540,7 +540,9 @@
 # Unmatched Routes
 
 - archived is a regular route folder not a slot.
+- complex-dashboard has 4 slots children, users, revenue and notifications.
 - when we visit `http://localhost:3000/complex-dashboard` all slots how their respective content. But when we visit `http://localhost:3000/complex-dashboard/archived`, only notifications slot has matching content. The other three slots children, user and revenue become unmatched.
+- When we move between default and archived notifications, the other three slots children, users and revenue remain exactly how they were and they are not influenced by the shift in the url path.
 
 [<img src="./pics/unmatched_routes_1.png" width="75%"/>](./pics/unmatched_routes_1.png)
 
