@@ -709,3 +709,13 @@
 [<img src="./pics/header_route_handlers_10.png" width="75%"/>](./pics/header_route_handlers_10.png)
 
 # Cookies in Route Handlers
+
+[<img src="./pics/cookie_route_handlers_1.png" width="75%"/>](./pics/cookie_route_handlers_1.png)
+
+[<img src="./pics/cookie_route_handlers_2.png" width="75%"/>](./pics/cookie_route_handlers_2.png)
+
+[<img src="./pics/cookie_route_handlers_3.png" width="75%"/>](./pics/cookie_route_handlers_3.png)
+
+[<img src="./pics/cookie_route_handlers_4.png" width="75%"/>](./pics/cookie_route_handlers_4.png)
+
+[<img src="./pics/cookie_route_handlers_5.png" width="75%"/>](./pics/cookie_route_handlers_5.png)
