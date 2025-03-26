@@ -566,6 +566,8 @@
 
 # Intercepting Routes
 
+- It lets you show alternative UI while preserving context but defaults to the standard UI on direct page load.
+
 [<img src="./pics/intercepting_routes_1.png" width="75%"/>](./pics/intercepting_routes_1.png)
 
 [<img src="./pics/intercepting_routes_2.png" width="75%"/>](./pics/intercepting_routes_2.png)
@@ -583,6 +585,28 @@
 [<img src="./pics/intercepting_routes_8.png" width="75%"/>](./pics/intercepting_routes_8.png)
 
 [<img src="./pics/intercepting_routes_9.png" width="75%"/>](./pics/intercepting_routes_9.png)
+
+[<img src="./pics/intercepting_routes_10.png" width="75%"/>](./pics/intercepting_routes_10.png)
+
+[<img src="./pics/intercepting_routes_11.png" width="75%"/>](./pics/intercepting_routes_11.png)
+
+[<img src="./pics/intercepting_routes_12.png" width="75%"/>](./pics/intercepting_routes_12.png)
+
+[<img src="./pics/intercepting_routes_13.png" width="75%"/>](./pics/intercepting_routes_13.png)
+
+[<img src="./pics/intercepting_routes_14.png" width="75%"/>](./pics/intercepting_routes_14.png)
+
+[<img src="./pics/intercepting_routes_15.png" width="75%"/>](./pics/intercepting_routes_15.png)
+
+[<img src="./pics/intercepting_routes_16.png" width="75%"/>](./pics/intercepting_routes_16.png)
+
+[<img src="./pics/intercepting_routes_17.png" width="75%"/>](./pics/intercepting_routes_17.png)
+
+[<img src="./pics/intercepting_routes_18.png" width="75%"/>](./pics/intercepting_routes_18.png)
+
+[<img src="./pics/intercepting_routes_19.png" width="75%"/>](./pics/intercepting_routes_19.png)
+
+[<img src="./pics/intercepting_routes_20.png" width="75%"/>](./pics/intercepting_routes_20.png)
 
 # Parallel Intercepting Routes
 
