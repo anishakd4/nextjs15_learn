@@ -710,6 +710,11 @@
 
 # Cookies in Route Handlers
 
+- The first approach is to return a new response with the setCookie header. To read this cookie in our route handler we can use the request parameter.
+- For the second approach nextjs provides a built in cookies function.
+
+[<img src="./pics/cookie_route_handlers_6.png" width="75%"/>](./pics/cookie_route_handlers_6.png)
+
 [<img src="./pics/cookie_route_handlers_1.png" width="75%"/>](./pics/cookie_route_handlers_1.png)
 
 [<img src="./pics/cookie_route_handlers_2.png" width="75%"/>](./pics/cookie_route_handlers_2.png)
