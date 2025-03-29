@@ -777,3 +777,7 @@
 [<img src="./pics/middleware_4.png" width="75%"/>](./pics/middleware_4.png)
 
 [<img src="./pics/middleware_5.png" width="75%"/>](./pics/middleware_5.png)
+
+# Rendering
+
+[<img src="./pics/rendering_1.png" width="75%"/>](./pics/rendering_1.png)
