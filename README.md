@@ -724,3 +724,39 @@
 [<img src="./pics/cookie_route_handlers_4.png" width="75%"/>](./pics/cookie_route_handlers_4.png)
 
 [<img src="./pics/cookie_route_handlers_5.png" width="75%"/>](./pics/cookie_route_handlers_5.png)
+
+# Redirects in route handlers
+
+- Lets suppose `http://localhost:3000/api/v2/users` is a significant improvement over `http://localhost:3000/api/v1/users`. To move clients to this new endpoint we can setup a redirect in v1.
+- SO in browser when users hit `http://localhost:3000/api/v1/users`, they will receive temporary redirect to `http://localhost:3000/api/v2/users`
+
+[<img src="./pics/redirect_in_route_handlers_1.png" width="75%"/>](./pics/redirect_in_route_handlers_1.png)
+
+[<img src="./pics/redirect_in_route_handlers_2.png" width="75%"/>](./pics/redirect_in_route_handlers_2.png)
+
+[<img src="./pics/redirect_in_route_handlers_3.png" width="75%"/>](./pics/redirect_in_route_handlers_3.png)
+
+[<img src="./pics/redirect_in_route_handlers_4.png" width="75%"/>](./pics/redirect_in_route_handlers_4.png)
+
+# Caching in Route Handlers
+
+- Each page reload will show you the latest time because there is no caching by default.
+- We have hardcoded the categories data for simplicity but in the real world scenario, this data will typically come from a database. Since this data rarely change, every request to this endpoint will trigger a database query which is in efficient. To avoid this we can use caching.
+- `export const dynamic = "force-static";` This ensures that the response is cached and served instantly to the all users.
+- Caching won't work in dev mode. Time will only change when the application is re-built.
+- If we want to update our without rebuilding the entire application, we can revalidate the cache data using incremental static regeneration.
+- `export const revalidate = 10;` this will revalidate the data every 10 seconds. When we build this application, the time route handler code will be generated with the time of the build. After you run `npm run start`, all request made to `/time` are cached and instant. After 10 seconds, new version of the code is generated with the latest timestamp. This process will repeat.
+
+[<img src="./pics/caching_in_route_handlers_1.png" width="75%"/>](./pics/caching_in_route_handlers_1.png)
+
+[<img src="./pics/caching_in_route_handlers_2.png" width="75%"/>](./pics/caching_in_route_handlers_2.png)
+
+[<img src="./pics/caching_in_route_handlers_3.png" width="75%"/>](./pics/caching_in_route_handlers_3.png)
+
+[<img src="./pics/caching_in_route_handlers_4.png" width="75%"/>](./pics/caching_in_route_handlers_4.png)
+
+[<img src="./pics/caching_in_route_handlers_5.png" width="75%"/>](./pics/caching_in_route_handlers_5.png)
+
+[<img src="./pics/caching_in_route_handlers_6.png" width="75%"/>](./pics/caching_in_route_handlers_6.png)
+
+[<img src="./pics/caching_in_route_handlers_7.png" width="75%"/>](./pics/caching_in_route_handlers_7.png)
