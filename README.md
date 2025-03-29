@@ -760,3 +760,20 @@
 [<img src="./pics/caching_in_route_handlers_6.png" width="75%"/>](./pics/caching_in_route_handlers_6.png)
 
 [<img src="./pics/caching_in_route_handlers_7.png" width="75%"/>](./pics/caching_in_route_handlers_7.png)
+
+# Middleware
+
+- Beyond redirect middleware also supports URL rewrites, a feature perfect for handling legacy URLs or improving SEO. We can use rewrite to keep the URL in the browser unchanged while serving different content.
+- Custom headers are useful for passing extra information which can be used by client side scripts or for debugging.
+- As we can see that middleware can be effectively used to manipulate cookies and headers.
+- In summary middleware in nextjs allows you to effectively control and intercept the request response cycle, enabling redirects, URL rewrites and the manipulation of headers and cookies.
+
+[<img src="./pics/middleware_1.png" width="75%"/>](./pics/middleware_1.png)
+
+[<img src="./pics/middleware_2.png" width="75%"/>](./pics/middleware_2.png)
+
+[<img src="./pics/middleware_3.png" width="75%"/>](./pics/middleware_3.png)
+
+[<img src="./pics/middleware_4.png" width="75%"/>](./pics/middleware_4.png)
+
+[<img src="./pics/middleware_5.png" width="75%"/>](./pics/middleware_5.png)
