@@ -824,3 +824,40 @@
 [<img src="./pics/server_side_rendering_8.png" width="75%"/>](./pics/server_side_rendering_8.png)
 
 [<img src="./pics/server_side_rendering_9.png" width="75%"/>](./pics/server_side_rendering_9.png)
+
+# Suspense SSR
+
+- To address these performance drawbacks of SSR, React 18 introduced the suspense SSR architecture.
+- When you wrap something like your main content area in a Suspense component, you are telling React to not to wait for this part and start streaming the rest of the page. React will show a loading spinner for that wrapped section while it works for the rest of the page. When the server finally has the data ready for that main section, React streams the additional HTML through the ongoing stream along with a tiny bit of javascript that knows exactly where to position that HTML. The cool part, users can see the main section's content even before react itself finishes loading on their browser.
+- This solves our first problem you don't have to fetch everything before you can show anything. If a particular section is slow and could potentially delay the initial HTML then no problem it can seamlessly integrated into the stream later when its ready.
+- This is the essence of how suspense facilitates server side HTML streaming.
+- Lets say user is about to hydrate side nav but the user clicks on the main content area. React will immediately switch gears and hydrate the clicked component during the click events capture phase. This means the component is ready to respond right away. The side nav will get hydrated later.
+- Despite all these improvements there are still some challenges to think about.
+
+[<img src="./pics/suspense_ssr_1.png" width="75%"/>](./pics/suspense_ssr_1.png)
+
+[<img src="./pics/suspense_ssr_2.png" width="75%"/>](./pics/suspense_ssr_2.png)
+
+[<img src="./pics/suspense_ssr_3.png" width="75%"/>](./pics/suspense_ssr_3.png)
+
+[<img src="./pics/suspense_ssr_4.png" width="75%"/>](./pics/suspense_ssr_4.png)
+
+[<img src="./pics/suspense_ssr_5.png" width="75%"/>](./pics/suspense_ssr_5.png)
+
+[<img src="./pics/suspense_ssr_6.png" width="75%"/>](./pics/suspense_ssr_6.png)
+
+[<img src="./pics/suspense_ssr_7.png" width="75%"/>](./pics/suspense_ssr_7.png)
+
+[<img src="./pics/suspense_ssr_8.png" width="75%"/>](./pics/suspense_ssr_8.png)
+
+[<img src="./pics/suspense_ssr_9.png" width="75%"/>](./pics/suspense_ssr_9.png)
+
+[<img src="./pics/suspense_ssr_10.png" width="75%"/>](./pics/suspense_ssr_10.png)
+
+[<img src="./pics/suspense_ssr_11.png" width="75%"/>](./pics/suspense_ssr_11.png)
+
+[<img src="./pics/suspense_ssr_12.png" width="75%"/>](./pics/suspense_ssr_12.png)
+
+[<img src="./pics/suspense_ssr_13.png" width="75%"/>](./pics/suspense_ssr_13.png)
+
+[<img src="./pics/suspense_ssr_14.png" width="75%"/>](./pics/suspense_ssr_14.png)
