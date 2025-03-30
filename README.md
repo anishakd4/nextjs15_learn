@@ -897,3 +897,34 @@
 [<img src="./pics/react_server_component_16.png" width="75%"/>](./pics/react_server_component_16.png)
 
 [<img src="./pics/react_server_component_17.png" width="75%"/>](./pics/react_server_component_17.png)
+
+# Server and Client Components
+
+- Every component in nextjs app defaults to being a server component, this includes the built in root layout.tsx
+- About page is a server component by default.
+- console.log in about component logs in browser console with a special server tag and also in terminal console. This confirms that our component is a server component.
+- Server components can't interact with the browser APIs or handle user interactions. Is we try to use `useState` hook, we will get an error because useState requires a client component environment.
+- Currently about page is a server component. Server components can't maintain state because they run on the server where browser based state management doesn't exist. This reinforces the fact that Nextjs treats every component as a server component by default unless explicitly specified otherwise.
+- To convert a server component to a client component, at the top of the file, we must include a directive "use client". It signals to nextjs that this dashboard component along with any components it imports is intended for client side execution. As a result the component gets gains full access to browser APIs and the ability to handle interactivity.
+- When we click on the dashboard link for the home page we can see the console.log appears in the browser console without the server tag, but we don't the see the log in terminal.
+- But if we reload the page in the browser we can see the log in terminal and browser both. This happens because when we navigate using the link component the dashboard component is only rendered in the client side and we see the message in the browser console but if we reload the page, the dashboard component is rendered once on the server to allow the user to immediately see the HTML content rather than a blank screen and then again on the client side during hydration that is why we see the message in the browser console and terminal both.
+
+[<img src="./pics/server_and_client_component_1.png" width="75%"/>](./pics/server_and_client_component_1.png)
+
+[<img src="./pics/server_and_client_component_2.png" width="75%"/>](./pics/server_and_client_component_2.png)
+
+[<img src="./pics/server_and_client_component_3.png" width="75%"/>](./pics/server_and_client_component_3.png)
+
+[<img src="./pics/server_and_client_component_4.png" width="75%"/>](./pics/server_and_client_component_4.png)
+
+[<img src="./pics/server_and_client_component_5.png" width="75%"/>](./pics/server_and_client_component_5.png)
+
+[<img src="./pics/server_and_client_component_6.png" width="75%"/>](./pics/server_and_client_component_6.png)
+
+[<img src="./pics/server_and_client_component_7.png" width="75%"/>](./pics/server_and_client_component_7.png)
+
+[<img src="./pics/server_and_client_component_8.png" width="75%"/>](./pics/server_and_client_component_8.png)
+
+[<img src="./pics/server_and_client_component_9.png" width="75%"/>](./pics/server_and_client_component_9.png)
+
+[<img src="./pics/server_and_client_component_10.png" width="75%"/>](./pics/server_and_client_component_10.png)
