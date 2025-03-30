@@ -861,3 +861,39 @@
 [<img src="./pics/suspense_ssr_13.png" width="75%"/>](./pics/suspense_ssr_13.png)
 
 [<img src="./pics/suspense_ssr_14.png" width="75%"/>](./pics/suspense_ssr_14.png)
+
+# React server components
+
+[<img src="./pics/react_server_component_1.png" width="75%"/>](./pics/react_server_component_1.png)
+
+[<img src="./pics/react_server_component_2.png" width="75%"/>](./pics/react_server_component_2.png)
+
+[<img src="./pics/react_server_component_3.png" width="75%"/>](./pics/react_server_component_3.png)
+
+[<img src="./pics/react_server_component_4.png" width="75%"/>](./pics/react_server_component_4.png)
+
+[<img src="./pics/react_server_component_5.png" width="75%"/>](./pics/react_server_component_5.png)
+
+[<img src="./pics/react_server_component_6.png" width="75%"/>](./pics/react_server_component_6.png)
+
+[<img src="./pics/react_server_component_7.png" width="75%"/>](./pics/react_server_component_7.png)
+
+[<img src="./pics/react_server_component_8.png" width="75%"/>](./pics/react_server_component_8.png)
+
+[<img src="./pics/react_server_component_9.png" width="75%"/>](./pics/react_server_component_9.png)
+
+[<img src="./pics/react_server_component_10.png" width="75%"/>](./pics/react_server_component_10.png)
+
+[<img src="./pics/react_server_component_11.png" width="75%"/>](./pics/react_server_component_11.png)
+
+[<img src="./pics/react_server_component_12.png" width="75%"/>](./pics/react_server_component_12.png)
+
+[<img src="./pics/react_server_component_13.png" width="75%"/>](./pics/react_server_component_13.png)
+
+[<img src="./pics/react_server_component_14.png" width="75%"/>](./pics/react_server_component_14.png)
+
+[<img src="./pics/react_server_component_15.png" width="75%"/>](./pics/react_server_component_15.png)
+
+[<img src="./pics/react_server_component_16.png" width="75%"/>](./pics/react_server_component_16.png)
+
+[<img src="./pics/react_server_component_17.png" width="75%"/>](./pics/react_server_component_17.png)
