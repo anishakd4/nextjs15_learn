@@ -781,3 +781,46 @@
 # Rendering
 
 [<img src="./pics/rendering_1.png" width="75%"/>](./pics/rendering_1.png)
+
+# Client-side Rendering (CSR)
+
+- When client visited your website, the server would send back a single HTML page, this page was pretty bare bones just a simple div and a link to a javascript file. This bundle.js is a real powerhouse which contains everything: the react library, the application code everything needed to run your application.
+- Browser would download this file as soon as the HTML was processed. Once all the javascript is downloaded, it would get to work generating all the HTML right there on your computer injecting it into DOM under the root div element and that is when you finally see your user interface.
+
+[<img src="./pics/client_side_rendering_1.png" width="75%"/>](./pics/client_side_rendering_1.png)
+
+[<img src="./pics/client_side_rendering_2.png" width="75%"/>](./pics/client_side_rendering_2.png)
+
+[<img src="./pics/client_side_rendering_3.png" width="75%"/>](./pics/client_side_rendering_3.png)
+
+[<img src="./pics/client_side_rendering_4.png" width="75%"/>](./pics/client_side_rendering_4.png)
+
+[<img src="./pics/client_side_rendering_5.png" width="75%"/>](./pics/client_side_rendering_5.png)
+
+[<img src="./pics/client_side_rendering_6.png" width="75%"/>](./pics/client_side_rendering_6.png)
+
+[<img src="./pics/client_side_rendering_7.png" width="75%"/>](./pics/client_side_rendering_7.png)
+
+# Server-side Rendering (SSR)
+
+- To overcome these drawbacks of client side rendering, modern react frameworks like gatsby and nextjs move towards server side solutions.
+- When a request comes in then instead of sending a bare HTML file that needs client side javascript to build the page, the server now handles rendering the complete HTML. This fully formed HTML document goes straight to the browser. Since the HTML is already generated on the server, the browser can quickly parse and display it, giving us faster initial page load times.
+- While SSR makes content visible faster it introduces its own complexity around interactivity. The page can't become fully interactive until the javascript bundle comprising both react itself and your application code has finished downloading and executing in the browser. This important phase is known as hydration is where the static HTML page initially served by the server is brought to life.
+
+[<img src="./pics/server_side_rendering_1.png" width="75%"/>](./pics/server_side_rendering_1.png)
+
+[<img src="./pics/server_side_rendering_2.png" width="75%"/>](./pics/server_side_rendering_2.png)
+
+[<img src="./pics/server_side_rendering_3.png" width="75%"/>](./pics/server_side_rendering_3.png)
+
+[<img src="./pics/server_side_rendering_4.png" width="75%"/>](./pics/server_side_rendering_4.png)
+
+[<img src="./pics/server_side_rendering_5.png" width="75%"/>](./pics/server_side_rendering_5.png)
+
+[<img src="./pics/server_side_rendering_6.png" width="75%"/>](./pics/server_side_rendering_6.png)
+
+[<img src="./pics/server_side_rendering_7.png" width="75%"/>](./pics/server_side_rendering_7.png)
+
+[<img src="./pics/server_side_rendering_8.png" width="75%"/>](./pics/server_side_rendering_8.png)
+
+[<img src="./pics/server_side_rendering_9.png" width="75%"/>](./pics/server_side_rendering_9.png)
