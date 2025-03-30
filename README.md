@@ -930,3 +930,24 @@
 [<img src="./pics/server_and_client_component_10.png" width="75%"/>](./pics/server_and_client_component_10.png)
 
 # RSC Rendering Lifecycle
+
+- When the browser requests a page the nextjs app router matches the requested URL to a server component. Nextjs then instructs react to render that server component. React renders the server component and any child components that are also server components converting them into a special JSON format known as the RSC payload.
+- During this process if any server component suspends, React pauses rendering of that subtree and sends a placeholder value instead.
+- While all this is happening React is also preparing instructions for the client components that we will need later.
+- Nextjs takes both the RSC payload and the client component instructions to generate HTML on the server. This HTML streams to your browser right away giving you a quick non interactive preview of the route. At the same time Nextjs also streams the RSC payload as React renders each piece of UI.
+- Once this reaches the browser, nextjs processes everything that was streamed over. React uses the RSC payload and client component instructions to progressively render the UI.
+- Once all the client components and the server components output has been loaded, the final UI state is presented to the user. Client components undergo hydration transforming our application from a static display into an interactive experience.
+- This is the initial loading sequence for our RSCs. Now lets look at the update sequence for refreshing parts of our application.
+- The browser requests a refetch of a specific UI such a full route. Nextjs processes the request and matches it to the requested server component. Nextjs instructs react to render the component tree. React renders the component similar to what happened during the initial loading but here is how it is different, we don't generate new HTML for updates instead nextjs progressively streams the response data straight back to the client.
+- On receiving the stream response nextjs triggers a re-render of the route using the new content. React then carefully reconciles or merges the new rendered output with the existing components on the screen because we are using a special json format instead of HTML, React can update everything while keeping the UI states intact things like where you have clicked. This is the RSC update sequence.
+- In Nextjs there are 3 different ways in which rendering can happen on the server: static, dynamic and rendering.
+
+[<img src="./pics/rsc_rendering_lifecycler_1.png" width="75%"/>](./pics/rsc_rendering_lifecycler_1.png)
+
+[<img src="./pics/rsc_rendering_lifecycler_2.png" width="75%"/>](./pics/rsc_rendering_lifecycler_2.png)
+
+[<img src="./pics/rsc_rendering_lifecycler_3.png" width="75%"/>](./pics/rsc_rendering_lifecycler_3.png)
+
+[<img src="./pics/rsc_rendering_lifecycler_4.png" width="75%"/>](./pics/rsc_rendering_lifecycler_4.png)
+
+[<img src="./pics/rsc_rendering_lifecycler_5.png" width="75%"/>](./pics/rsc_rendering_lifecycler_5.png)
