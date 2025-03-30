@@ -928,3 +928,5 @@
 [<img src="./pics/server_and_client_component_9.png" width="75%"/>](./pics/server_and_client_component_9.png)
 
 [<img src="./pics/server_and_client_component_10.png" width="75%"/>](./pics/server_and_client_component_10.png)
+
+# RSC Rendering Lifecycle
