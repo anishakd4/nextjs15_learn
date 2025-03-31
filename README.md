@@ -1019,3 +1019,20 @@
 [<img src="./pics/static_rendering_20.png" width="75%"/>](./pics/static_rendering_20.png)
 
 [<img src="./pics/static_rendering_21.png" width="75%"/>](./pics/static_rendering_21.png)
+
+# Dynamic rendering
+
+- for /about2 route f symbol is there which means dynamic rendering.
+- Dynamically rendered pages are not generated during build times. If we inspect .next/server/app we won't see html page for about2 page.
+- Each we refresh /about2 we get latest time.
+- Since we are generating a new page for each request, there is simply no need to store it.
+
+[<img src="./pics/dynamic_rendering_1.png" width="75%"/>](./pics/dynamic_rendering_1.png)
+
+[<img src="./pics/dynamic_rendering_2.png" width="75%"/>](./pics/dynamic_rendering_2.png)
+
+[<img src="./pics/dynamic_rendering_3.png" width="75%"/>](./pics/dynamic_rendering_3.png)
+
+[<img src="./pics/dynamic_rendering_4.png" width="75%"/>](./pics/dynamic_rendering_4.png)
+
+[<img src="./pics/dynamic_rendering_5.png" width="75%"/>](./pics/dynamic_rendering_5.png)

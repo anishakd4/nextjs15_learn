@@ -14,7 +14,8 @@ export default function Home() {
           priority
         />
         <Link href="/dashboard">Dashboard</Link>
-        <Link href="/about">Dashboard</Link>
+        <Link href="/about">About</Link>
+        <Link href="/about2">About2</Link>
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing{" "}
