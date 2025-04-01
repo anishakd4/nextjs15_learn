@@ -1112,3 +1112,28 @@
 [<img src="./pics/server_client_composition_1.png" width="75%"/>](./pics/server_client_composition_1.png)
 
 [<img src="./pics/server_client_composition_2.png" width="75%"/>](./pics/server_client_composition_2.png)
+
+# Server-only Code
+
+- If a server only code ends up in the client bundle you are looking at potential performance issues from large bundle sizes and heavy computations, security risks from exposed sensitive logic and possible function errors when server specific code tries to run in the browser.
+- here server-only package comes to the rescue.
+- After adding `import "server-only";` the top of `ServerSideFunction`, if anyone tries to import this module into a client component then the build will fail immediately preventing any potential issues related to exposing server side code to the client. Its like having a security guard that stops server code sneaking into the client bundle.
+- In summary keeping server only code separate from client code isn't just good practice, it is essential for security performance and reliability.
+
+[<img src="./pics/server_only_code_1.png" width="75%"/>](./pics/server_only_code_1.png)
+
+[<img src="./pics/server_only_code_2.png" width="75%"/>](./pics/server_only_code_2.png)
+
+[<img src="./pics/server_only_code_3.png" width="75%"/>](./pics/server_only_code_3.png)
+
+[<img src="./pics/server_only_code_4.png" width="75%"/>](./pics/server_only_code_4.png)
+
+[<img src="./pics/server_only_code_5.png" width="75%"/>](./pics/server_only_code_5.png)
+
+[<img src="./pics/server_only_code_6.png" width="75%"/>](./pics/server_only_code_6.png)
+
+[<img src="./pics/server_only_code_7.png" width="75%"/>](./pics/server_only_code_7.png)
+
+[<img src="./pics/server_only_code_8.png" width="75%"/>](./pics/server_only_code_8.png)
+
+[<img src="./pics/server_only_code_9.png" width="75%"/>](./pics/server_only_code_9.png)
