@@ -1062,3 +1062,20 @@
 [<img src="./pics/generate_static_params_7.png" width="75%"/>](./pics/generate_static_params_7.png)
 
 [<img src="./pics/generate_static_params_8.png" width="75%"/>](./pics/generate_static_params_8.png)
+
+# dynamicParams
+
+- What happens when someone tries to access a product page page with an id that is not in our `generateStaticParams` function list like products with id 4,5,6 and so on. Nextjs will still render those pages just not in advance, instead it statically renders them at runtime.
+- When we navigate to `http://localhost:3000/products/4` product id page still works and if we inspect our build folder `.next/server/app/products`, we now see 4.html. This file was generated at runtime when we visited `http://localhost:3000/products/4` and since the page is statically rendered, the timestamp will not change each time we refresh the page.
+- If we visit `http://localhost:3000/products/5` this will generate a new html file with current time and you see the file in the build folder.
+- We can control this behavior through a setting called `dynamicParams`. By default dynamicParams is set to true. Which means Nextjs will statically render pages on demand for any dynamic segments not included in `generateStaticParams`.
+- We can set it to false which tells Nextjs to return a 404 error for any dynamic segments not included in our pre-rendered list.
+- Now if we visit `http://localhost:3000/products/4` we get 404 error.
+
+[<img src="./pics/dynamic_params_1.png" width="75%"/>](./pics/dynamic_params_1.png)
+
+[<img src="./pics/dynamic_params_2.png" width="75%"/>](./pics/dynamic_params_2.png)
+
+[<img src="./pics/dynamic_params_3.png" width="75%"/>](./pics/dynamic_params_3.png)
+
+[<img src="./pics/dynamic_params_4.png" width="75%"/>](./pics/dynamic_params_4.png)
