@@ -1079,3 +1079,30 @@
 [<img src="./pics/dynamic_params_3.png" width="75%"/>](./pics/dynamic_params_3.png)
 
 [<img src="./pics/dynamic_params_4.png" width="75%"/>](./pics/dynamic_params_4.png)
+
+# streaming
+
+- If we visit `http://localhost:3000/product-reviews`, it will take a while to show anything, even just the h1 element.
+- You can see the server response time showing around 6 seconds for `http://localhost:3000/product-reviews`, because it is fetching everything before sending anything. We can improve this using the streaming strategy supported by the app router. It is super simple, just wrap our slower components with `suspense` and nextjs will handle the rest.
+- Now if we reload the `http://localhost:3000/product-reviews` page, the heading appears instantly followed by the product details after 2 seconds and finally the reviews after 4 seconds.
+- This is progressive HTML rendering in action from the server to the client.
+
+[<img src="./pics/streaming_1.png" width="75%"/>](./pics/streaming_1.png)
+
+[<img src="./pics/streaming_2.png" width="75%"/>](./pics/streaming_2.png)
+
+[<img src="./pics/streaming_3.png" width="75%"/>](./pics/streaming_3.png)
+
+[<img src="./pics/streaming_4.png" width="75%"/>](./pics/streaming_4.png)
+
+[<img src="./pics/streaming_5.png" width="75%"/>](./pics/streaming_5.png)
+
+[<img src="./pics/streaming_6.png" width="75%"/>](./pics/streaming_6.png)
+
+[<img src="./pics/streaming_7.png" width="75%"/>](./pics/streaming_7.png)
+
+[<img src="./pics/streaming_8.png" width="75%"/>](./pics/streaming_8.png)
+
+[<img src="./pics/streaming_9.png" width="75%"/>](./pics/streaming_9.png)
+
+[<img src="./pics/streaming_10.png" width="75%"/>](./pics/streaming_10.png)
