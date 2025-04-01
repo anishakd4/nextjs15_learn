@@ -1036,3 +1036,29 @@
 [<img src="./pics/dynamic_rendering_4.png" width="75%"/>](./pics/dynamic_rendering_4.png)
 
 [<img src="./pics/dynamic_rendering_5.png" width="75%"/>](./pics/dynamic_rendering_5.png)
+
+# generateStaticParams
+
+- Nextjs handles the product list page and product details page differently, the product list page gets static rendering while the product details page is setup for dynamic rendering. In `.next/server/app` we can see products.html for product list page but we don't find anything for the product details page.
+- If we visit `/products/1` we see the exact new time each time we refresh the page because product details page is rendered on demand at request time.
+- From our previous learning we know that static rendering gives us better performance, wouldn't it be great if we could tell nextjs to pre-render our featured product details pages. This is what `generateStaticParams` helps us do.
+- After generateStaticParams when we rebuild the project, you will see nextjs pre-render the product details pages for all three featured products.
+- In `.next/server/app/products` you will find HTML files `1.html`, `2.html` and `3.html`
+- If we visit `/products/1` we will see the same exact time each time we refresh the page as it is serving now a pre-rendered HTML file now.
+- `generateStaticParams` is a powerful feature in nextjs that lets you pre-render static routes for dynamic segments. It runs at build time, handles multiple dynamic segments and can really boost your application's performance by ensuring that frequently accessed pages are pre-rendered and ready to serve immediately.
+
+[<img src="./pics/generate_static_params_1.png" width="75%"/>](./pics/generate_static_params_1.png)
+
+[<img src="./pics/generate_static_params_2.png" width="75%"/>](./pics/generate_static_params_2.png)
+
+[<img src="./pics/generate_static_params_3.png" width="75%"/>](./pics/generate_static_params_3.png)
+
+[<img src="./pics/generate_static_params_4.png" width="75%"/>](./pics/generate_static_params_4.png)
+
+[<img src="./pics/generate_static_params_5.png" width="75%"/>](./pics/generate_static_params_5.png)
+
+[<img src="./pics/generate_static_params_6.png" width="75%"/>](./pics/generate_static_params_6.png)
+
+[<img src="./pics/generate_static_params_7.png" width="75%"/>](./pics/generate_static_params_7.png)
+
+[<img src="./pics/generate_static_params_8.png" width="75%"/>](./pics/generate_static_params_8.png)
