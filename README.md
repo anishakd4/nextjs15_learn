@@ -1106,3 +1106,9 @@
 [<img src="./pics/streaming_9.png" width="75%"/>](./pics/streaming_9.png)
 
 [<img src="./pics/streaming_10.png" width="75%"/>](./pics/streaming_10.png)
+
+# Server and Client Composition Patterns
+
+[<img src="./pics/server_client_composition_1.png" width="75%"/>](./pics/server_client_composition_1.png)
+
+[<img src="./pics/server_client_composition_2.png" width="75%"/>](./pics/server_client_composition_2.png)
