@@ -1139,3 +1139,20 @@
 [<img src="./pics/server_only_code_9.png" width="75%"/>](./pics/server_only_code_9.png)
 
 [<img src="./pics/server_only_code_10.png" width="75%"/>](./pics/server_only_code_10.png)
+
+# Third Party Packages
+
+- In Browser if we visit `http://localhost:3000/client-route` we should see perfectly working carousel.
+- When we visit `http://localhost:3000/server-route` we get a problem. While slider component using client side features but the library itself doesn't include the client side directive. We could add "use client" directive to our server route, but that is not the optimal solution.
+- To resolve this we can encapsulate third party components that depend on client only features within your own client components.
+- Now our server component can be cleaned up to use the ImageSlider component
+- So we still have a server component with one component behaving as a client component. When we visit `http://localhost:3000/server-route` now it works fine.
+- In summary third party packages in the React ecosystem are in a transitional phase where numerous packages from npm packages have not yet adopted the "use client" directive. Wrapping such components in our own client components will allow use to leverage the ecosystem of third party packages while adhering to the new server components model.
+
+[<img src="./pics/third_party_package_1.png" width="75%"/>](./pics/third_party_package_1.png)
+
+[<img src="./pics/third_party_package_2.png" width="75%"/>](./pics/third_party_package_2.png)
+
+[<img src="./pics/third_party_package_3.png" width="75%"/>](./pics/third_party_package_3.png)
+
+[<img src="./pics/third_party_package_4.png" width="75%"/>](./pics/third_party_package_4.png)
