@@ -1156,3 +1156,19 @@
 [<img src="./pics/third_party_package_3.png" width="75%"/>](./pics/third_party_package_3.png)
 
 [<img src="./pics/third_party_package_4.png" width="75%"/>](./pics/third_party_package_4.png)
+
+# Context Providers
+
+- Even though we are wrapping our application in a client component which is a theme provider, server components further down the tree stay as server components.
+
+[<img src="./pics/context_providers_1.png" width="75%"/>](./pics/context_providers_1.png)
+
+[<img src="./pics/context_providers_2.png" width="75%"/>](./pics/context_providers_2.png)
+
+[<img src="./pics/context_providers_3.png" width="75%"/>](./pics/context_providers_3.png)
+
+[<img src="./pics/context_providers_4.png" width="75%"/>](./pics/context_providers_4.png)
+
+[<img src="./pics/context_providers_5.png" width="75%"/>](./pics/context_providers_5.png)
+
+[<img src="./pics/context_providers_6.png" width="75%"/>](./pics/context_providers_6.png)
