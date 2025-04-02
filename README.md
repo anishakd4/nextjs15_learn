@@ -1172,3 +1172,25 @@
 [<img src="./pics/context_providers_5.png" width="75%"/>](./pics/context_providers_5.png)
 
 [<img src="./pics/context_providers_6.png" width="75%"/>](./pics/context_providers_6.png)
+
+# Client-only Code
+
+- When we import "client-only" in a module, it creates a safety net if someone tries to use this code in the server side, it will fail at build time.
+- Instead of running into problems when your application is running, you will catch these issues early during development.
+- In summary just as server only code needs isolation, client only code needs to stay on the client side where it can properly use browser features, the client only package acts as a safety net making sure our client code stays where it belongs which makes our app more reliable and easier to maintain.
+
+[<img src="./pics/client_only_code_1.png" width="75%"/>](./pics/client_only_code_1.png)
+
+[<img src="./pics/client_only_code_2.png" width="75%"/>](./pics/client_only_code_2.png)
+
+[<img src="./pics/client_only_code_3.png" width="75%"/>](./pics/client_only_code_3.png)
+
+[<img src="./pics/client_only_code_4.png" width="75%"/>](./pics/client_only_code_4.png)
+
+[<img src="./pics/client_only_code_5.png" width="75%"/>](./pics/client_only_code_5.png)
+
+[<img src="./pics/client_only_code_6.png" width="75%"/>](./pics/client_only_code_6.png)
+
+[<img src="./pics/client_only_code_7.png" width="75%"/>](./pics/client_only_code_7.png)
+
+[<img src="./pics/client_only_code_8.png" width="75%"/>](./pics/client_only_code_8.png)
