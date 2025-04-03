@@ -1193,4 +1193,39 @@
 
 [<img src="./pics/client_only_code_7.png" width="75%"/>](./pics/client_only_code_7.png)
 
-[<img src="./pics/client_only_code_8.png" width="75%"/>](./pics/client_only_code_8.png)
+[<img src="./pics/client_only_code_8i.png" width="75%"/>](./pics/client_only_code_8.png)
+
+# Client Component Placement
+
+- If "use client" is declared in the Navbar component shouldn't that be the only component running client side. Well this is a common misconception. When you mark a component with "used client" directive, it doesn't just affects that component, but also affects every child component in the component tree below it. On our case Navlink and Navsearch become client component as well.
+- If you convert a high level component to a a client component just to add some interactivity, you are accidentally making its entire subtree run on the client too.
+- This is why we need to push client component as far down the tree as possible.
+- Instead of making Navbar the client component nav search to a client component as it is the only one that actually needs state.
+
+[<img src="./pics/client_component_placement_1.png" width="75%"/>](./pics/client_component_placement_1.png)
+
+[<img src="./pics/client_component_placement_2.png" width="75%"/>](./pics/client_component_placement_2.png)
+
+[<img src="./pics/client_component_placement_3.png" width="75%"/>](./pics/client_component_placement_3.png)
+
+[<img src="./pics/client_component_placement_4.png" width="75%"/>](./pics/client_component_placement_4.png)
+
+[<img src="./pics/client_component_placement_5.png" width="75%"/>](./pics/client_component_placement_5.png)
+
+[<img src="./pics/client_component_placement_6.png" width="75%"/>](./pics/client_component_placement_6.png)
+
+[<img src="./pics/client_component_placement_7.png" width="75%"/>](./pics/client_component_placement_7.png)
+
+[<img src="./pics/client_component_placement_8.png" width="75%"/>](./pics/client_component_placement_8.png)
+
+[<img src="./pics/client_component_placement_9.png" width="75%"/>](./pics/client_component_placement_9.png)
+
+[<img src="./pics/client_component_placement_10.png" width="75%"/>](./pics/client_component_placement_10.png)
+
+[<img src="./pics/client_component_placement_11.png" width="75%"/>](./pics/client_component_placement_11.png)
+
+[<img src="./pics/client_component_placement_12.png" width="75%"/>](./pics/client_component_placement_12.png)
+
+[<img src="./pics/client_component_placement_13.png" width="75%"/>](./pics/client_component_placement_13.png)
+
+[<img src="./pics/client_component_placement_14.png" width="75%"/>](./pics/client_component_placement_14.png)
