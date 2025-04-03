@@ -1283,3 +1283,18 @@
 [<img src="./pics/interleaving_server_client_component_21.png" width="75%"/>](./pics/interleaving_server_client_component_21.png)
 
 [<img src="./pics/interleaving_server_client_component_22.png" width="75%"/>](./pics/interleaving_server_client_component_22.png)
+
+# data fetching in client components
+
+- We should really use client components for data fetching when you absolutely need to, like when you need real time updates or when yours data depends on client side interactions that you can't predict on the server side.
+- For everything else the recommended way to fetch data is through server components.
+
+[<img src="./pics/fetch_data_client_components_1.png" width="75%"/>](./pics/fetch_data_client_components_1.png)
+
+[<img src="./pics/fetch_data_client_components_2.png" width="75%"/>](./pics/fetch_data_client_components_2.png)
+
+[<img src="./pics/fetch_data_client_components_3.png" width="75%"/>](./pics/fetch_data_client_components_3.png)
+
+[<img src="./pics/fetch_data_client_components_4.png" width="75%"/>](./pics/fetch_data_client_components_4.png)
+
+[<img src="./pics/fetch_data_client_components_5.png" width="75%"/>](./pics/fetch_data_client_components_5.png)
