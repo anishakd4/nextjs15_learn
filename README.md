@@ -1298,3 +1298,21 @@
 [<img src="./pics/fetch_data_client_components_4.png" width="75%"/>](./pics/fetch_data_client_components_4.png)
 
 [<img src="./pics/fetch_data_client_components_5.png" width="75%"/>](./pics/fetch_data_client_components_5.png)
+
+# data fetching in server components
+
+- When building nextjs applications, you will often end up fetching the same data at multiple places, like how request B appears across 6 different components in our tree to load a single route, you might think that this would trigger multiple network requests for the same data but React cleverly handles this through a feature called Request memoization.
+- React will de duplicate fetch requests with the same URL and options. This means you can fetch data where ever you need in your component tree without worrying about duplicate network requests.
+- React will only make the actual fetch once and reuse the result for subsequent calls during the same render pass.
+
+[<img src="./pics/fetch_data_server_components_1.png" width="75%"/>](./pics/fetch_data_server_components_1.png)
+
+[<img src="./pics/fetch_data_server_components_2.png" width="75%"/>](./pics/fetch_data_server_components_2.png)
+
+[<img src="./pics/fetch_data_server_components_3.png" width="75%"/>](./pics/fetch_data_server_components_3.png)
+
+[<img src="./pics/fetch_data_server_components_4.png" width="75%"/>](./pics/fetch_data_server_components_4.png)
+
+[<img src="./pics/fetch_data_server_components_5.png" width="75%"/>](./pics/fetch_data_server_components_5.png)
+
+[<img src="./pics/fetch_data_server_components_6.png" width="75%"/>](./pics/fetch_data_server_components_6.png)
