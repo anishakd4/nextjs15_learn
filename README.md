@@ -1229,3 +1229,57 @@
 [<img src="./pics/client_component_placement_13.png" width="75%"/>](./pics/client_component_placement_13.png)
 
 [<img src="./pics/client_component_placement_14.png" width="75%"/>](./pics/client_component_placement_14.png)
+
+# Interleaving Server and Client Components
+
+- Any component nested inside a client component automatically becomes a client component too. Since client component render after server component you can't import a server component directly into a client component. Even though ServerComponentOne is defined as server component, when it is nested inside a client component it transforms into a client component which is executed client side. And in the client side environment there is not filesystem module and hence the error.
+- So it is important to remember that importing a server component into a client component is a pattern not supported in nextjs
+- Work around can to pass to pass server component as a prop to the client component which is a common approach in using react's children prop to create what is called a slot.
+- Client component inside a client component is supported.
+- Server component inside a server component is supported.
+- Client component inside a server component is supported.
+- Server component inside a client component is not supported.
+
+[<img src="./pics/interleaving_server_client_component_1.png" width="75%"/>](./pics/interleaving_server_client_component_1.png)
+
+[<img src="./pics/interleaving_server_client_component_2.png" width="75%"/>](./pics/interleaving_server_client_component_2.png)
+
+[<img src="./pics/interleaving_server_client_component_3.png" width="75%"/>](./pics/interleaving_server_client_component_3.png)
+
+[<img src="./pics/interleaving_server_client_component_4.png" width="75%"/>](./pics/interleaving_server_client_component_4.png)
+
+[<img src="./pics/interleaving_server_client_component_5.png" width="75%"/>](./pics/interleaving_server_client_component_5.png)
+
+[<img src="./pics/interleaving_server_client_component_6.png" width="75%"/>](./pics/interleaving_server_client_component_6.png)
+
+[<img src="./pics/interleaving_server_client_component_7.png" width="75%"/>](./pics/interleaving_server_client_component_7.png)
+
+[<img src="./pics/interleaving_server_client_component_8.png" width="75%"/>](./pics/interleaving_server_client_component_8.png)
+
+[<img src="./pics/interleaving_server_client_component_9.png" width="75%"/>](./pics/interleaving_server_client_component_9.png)
+
+[<img src="./pics/interleaving_server_client_component_10.png" width="75%"/>](./pics/interleaving_server_client_component_10.png)
+
+[<img src="./pics/interleaving_server_client_component_11.png" width="75%"/>](./pics/interleaving_server_client_component_11.png)
+
+[<img src="./pics/interleaving_server_client_component_12.png" width="75%"/>](./pics/interleaving_server_client_component_12.png)
+
+[<img src="./pics/interleaving_server_client_component_13.png" width="75%"/>](./pics/interleaving_server_client_component_13.png)
+
+[<img src="./pics/interleaving_server_client_component_14.png" width="75%"/>](./pics/interleaving_server_client_component_14.png)
+
+[<img src="./pics/interleaving_server_client_component_15.png" width="75%"/>](./pics/interleaving_server_client_component_15.png)
+
+[<img src="./pics/interleaving_server_client_component_16.png" width="75%"/>](./pics/interleaving_server_client_component_16.png)
+
+[<img src="./pics/interleaving_server_client_component_17.png" width="75%"/>](./pics/interleaving_server_client_component_17.png)
+
+[<img src="./pics/interleaving_server_client_component_18.png" width="75%"/>](./pics/interleaving_server_client_component_18.png)
+
+[<img src="./pics/interleaving_server_client_component_19.png" width="75%"/>](./pics/interleaving_server_client_component_19.png)
+
+[<img src="./pics/interleaving_server_client_component_20.png" width="75%"/>](./pics/interleaving_server_client_component_20.png)
+
+[<img src="./pics/interleaving_server_client_component_21.png" width="75%"/>](./pics/interleaving_server_client_component_21.png)
+
+[<img src="./pics/interleaving_server_client_component_22.png" width="75%"/>](./pics/interleaving_server_client_component_22.png)
