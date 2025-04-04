@@ -1316,3 +1316,23 @@
 [<img src="./pics/fetch_data_server_components_5.png" width="75%"/>](./pics/fetch_data_server_components_5.png)
 
 [<img src="./pics/fetch_data_server_components_6.png" width="75%"/>](./pics/fetch_data_server_components_6.png)
+
+# Loading and Error States
+
+- Error handling component needs to be client component, so we have to use `use client`ssss directive at the top.
+
+[<img src="./pics/loading_error_states_1.png" width="75%"/>](./pics/loading_error_states_1.png)
+
+[<img src="./pics/loading_error_states_2.png" width="75%"/>](./pics/loading_error_states_2.png)
+
+[<img src="./pics/loading_error_states_3.png" width="75%"/>](./pics/loading_error_states_3.png)
+
+[<img src="./pics/loading_error_states_4.png" width="75%"/>](./pics/loading_error_states_4.png)
+
+[<img src="./pics/loading_error_states_5.png" width="75%"/>](./pics/loading_error_states_5.png)
+
+[<img src="./pics/loading_error_states_6.png" width="75%"/>](./pics/loading_error_states_6.png)
+
+[<img src="./pics/loading_error_states_7.png" width="75%"/>](./pics/loading_error_states_7.png)
+
+[<img src="./pics/loading_error_states_8.png" width="75%"/>](./pics/loading_error_states_8.png)
