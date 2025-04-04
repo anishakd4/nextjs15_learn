@@ -1336,3 +1336,26 @@
 [<img src="./pics/loading_error_states_7.png" width="75%"/>](./pics/loading_error_states_7.png)
 
 [<img src="./pics/loading_error_states_8.png" width="75%"/>](./pics/loading_error_states_8.png)
+
+# Sequential Data Fetching
+
+- First we fetch all posts from all /posts API, then for each post we render we make another fetch request to fetch its author details.
+- Each author request has to wait for each post request to complete because we the userid from each individual post.
+- This works fine but we can improve this by not blocking the UI while we are fetching the author details. We can show the post first and stream the author in the background. We can do this by wrapping the author component in a suspense boundary.
+- Now if we reload the `http://localhost:3000/posts-sequential` we snhould see the posts displayed with the loading author text and after a short delay the author name should be streamed in.
+
+[<img src="./pics/sequential_data_fetching_1.png" width="75%"/>](./pics/sequential_data_fetching_1.png)
+
+[<img src="./pics/sequential_data_fetching_2.png" width="75%"/>](./pics/sequential_data_fetching_2.png)
+
+[<img src="./pics/sequential_data_fetching_3.png" width="75%"/>](./pics/sequential_data_fetching_3.png)
+
+[<img src="./pics/sequential_data_fetching_4.png" width="75%"/>](./pics/sequential_data_fetching_4.png)
+
+[<img src="./pics/sequential_data_fetching_5.png" width="75%"/>](./pics/sequential_data_fetching_5.png)
+
+[<img src="./pics/sequential_data_fetching_6.png" width="75%"/>](./pics/sequential_data_fetching_6.png)
+
+[<img src="./pics/sequential_data_fetching_7.png" width="75%"/>](./pics/sequential_data_fetching_7.png)
+
+[<img src="./pics/sequential_data_fetching_8.png" width="75%"/>](./pics/sequential_data_fetching_8.png)
