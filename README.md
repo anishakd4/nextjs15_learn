@@ -1369,3 +1369,25 @@
 [<img src="./pics/parallel_data_fetching_3.png" width="75%"/>](./pics/parallel_data_fetching_3.png)
 
 [<img src="./pics/parallel_data_fetching_4.png" width="75%"/>](./pics/parallel_data_fetching_4.png)
+
+# Fetching from a Database
+
+- Here server component is directly accessing database. No API layer required.
+
+[<img src="./pics/fetching_from_database_1.png" width="75%"/>](./pics/fetching_from_database_1.png)
+
+[<img src="./pics/fetching_from_database_2.png" width="75%"/>](./pics/fetching_from_database_2.png)
+
+[<img src="./pics/fetching_from_database_3.png" width="75%"/>](./pics/fetching_from_database_3.png)
+
+[<img src="./pics/fetching_from_database_4.png" width="75%"/>](./pics/fetching_from_database_4.png)
+
+[<img src="./pics/fetching_from_database_5.png" width="75%"/>](./pics/fetching_from_database_5.png)
+
+[<img src="./pics/fetching_from_database_6.png" width="75%"/>](./pics/fetching_from_database_6.png)
+
+[<img src="./pics/fetching_from_database_7.png" width="75%"/>](./pics/fetching_from_database_7.png)
+
+[<img src="./pics/fetching_from_database_8.png" width="75%"/>](./pics/fetching_from_database_8.png)
+
+[<img src="./pics/fetching_from_database_9.png" width="75%"/>](./pics/fetching_from_database_9.png)
