@@ -1359,3 +1359,13 @@
 [<img src="./pics/sequential_data_fetching_7.png" width="75%"/>](./pics/sequential_data_fetching_7.png)
 
 [<img src="./pics/sequential_data_fetching_8.png" width="75%"/>](./pics/sequential_data_fetching_8.png)
+
+# Parallel Data Fetching
+
+[<img src="./pics/parallel_data_fetching_1.png" width="75%"/>](./pics/parallel_data_fetching_1.png)
+
+[<img src="./pics/parallel_data_fetching_2.png" width="75%"/>](./pics/parallel_data_fetching_2.png)
+
+[<img src="./pics/parallel_data_fetching_3.png" width="75%"/>](./pics/parallel_data_fetching_3.png)
+
+[<img src="./pics/parallel_data_fetching_4.png" width="75%"/>](./pics/parallel_data_fetching_4.png)
