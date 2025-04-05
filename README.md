@@ -1448,3 +1448,17 @@
 [<img src="./pics/form_with_server_actions_14.png" width="75%"/>](./pics/form_with_server_actions_14.png)
 
 [<img src="./pics/form_with_server_actions_15.png" width="75%"/>](./pics/form_with_server_actions_15.png)
+
+# Pending State with useFormStatus
+
+- We can use the `useFormStatus` hook from the react-dom to manage state from the active form submissions by extracting just the submit button into a client component, we can get best of both worlds. Server component benefits from our main component and dynamic client side updates from our form submission state.
+
+[<img src="./pics/pending_state_with_useformstatus_1.png" width="75%"/>](./pics/pending_state_with_useformstatus_1.png)
+
+[<img src="./pics/pending_state_with_useformstatus_2.png" width="75%"/>](./pics/pending_state_with_useformstatus_2.png)
+
+[<img src="./pics/pending_state_with_useformstatus_3.png" width="75%"/>](./pics/pending_state_with_useformstatus_3.png)
+
+[<img src="./pics/pending_state_with_useformstatus_4.png" width="75%"/>](./pics/pending_state_with_useformstatus_4.png)
+
+[<img src="./pics/pending_state_with_useformstatus_5.png" width="75%"/>](./pics/pending_state_with_useformstatus_5.png)
