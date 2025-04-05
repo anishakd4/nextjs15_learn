@@ -1391,3 +1391,23 @@
 [<img src="./pics/fetching_from_database_8.png" width="75%"/>](./pics/fetching_from_database_8.png)
 
 [<img src="./pics/fetching_from_database_9.png" width="75%"/>](./pics/fetching_from_database_9.png)
+
+# Data Mutations
+
+- First we will check how we would do it with react.
+- form is created in `react-form/page.tsx`. We add onSubmit event listener to your form, that triggers a submit handler function when the form is submitted.
+- For security reasons client side code can't directly interact with the database, that is why you or your backend team has to setup an API route to handle the create request.
+- In our example we using a nextjs api route `/react-form/api`, but you can think of this this as a backend end point. This actually does the heavy lifting of actually interacting with the database, taking the form data and creating a new product record using the add product function.
+- As we can see there is quite a lot going on here. we are managing form state, handling submissions, interacting with API route, dealing with loading states and handling redirects.
+
+[<img src="./pics/data_mutations_react_form_1.png" width="75%"/>](./pics/data_mutations_react_form_1.png)
+
+[<img src="./pics/data_mutations_react_form_2.png" width="75%"/>](./pics/data_mutations_react_form_2.png)
+
+[<img src="./pics/data_mutations_react_form_3.png" width="75%"/>](./pics/data_mutations_react_form_3.png)
+
+[<img src="./pics/data_mutations_react_form_4.png" width="75%"/>](./pics/data_mutations_react_form_4.png)
+
+[<img src="./pics/data_mutations_react_form_5.png" width="75%"/>](./pics/data_mutations_react_form_5.png)
+
+[<img src="./pics/data_mutations_react_form_6¯¯¯.png" width="75%"/>](./pics/data_mutations_react_form_6.png)
