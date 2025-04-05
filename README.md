@@ -1410,4 +1410,41 @@
 
 [<img src="./pics/data_mutations_react_form_5.png" width="75%"/>](./pics/data_mutations_react_form_5.png)
 
-[<img src="./pics/data_mutations_react_form_6¯¯¯.png" width="75%"/>](./pics/data_mutations_react_form_6.png)
+[<img src="./pics/data_mutations_react_form_6.png" width="75%"/>](./pics/data_mutations_react_form_6.png)
+
+# Forms with Server Actions
+
+- state and event handlers don't work in server components
+- When someone submits the form, the createProduct function automatically receives the form data as argument.
+- Because we are using a server action in a server component, we can talk directly to the database. This code never reaches the client browser. Its like building a Api endpoint right into your component.
+- server actions are asynchronous functions that are executed on the server. They allow us to perform data mutations without server API routes. We implement these using the "use server" directive and they simply our code improve security and support progressive enhancement.
+
+[<img src="./pics/form_with_server_actions_1.png" width="75%"/>](./pics/form_with_server_actions_1.png)
+
+[<img src="./pics/form_with_server_actions_2.png" width="75%"/>](./pics/form_with_server_actions_2.png)
+
+[<img src="./pics/form_with_server_actions_3.png" width="75%"/>](./pics/form_with_server_actions_3.png)
+
+[<img src="./pics/form_with_server_actions_4.png" width="75%"/>](./pics/form_with_server_actions_4.png)
+
+[<img src="./pics/form_with_server_actions_5.png" width="75%"/>](./pics/form_with_server_actions_5.png)
+
+[<img src="./pics/form_with_server_actions_6.png" width="75%"/>](./pics/form_with_server_actions_6.png)
+
+[<img src="./pics/form_with_server_actions_7.png" width="75%"/>](./pics/form_with_server_actions_7.png)
+
+[<img src="./pics/form_with_server_actions_8.png" width="75%"/>](./pics/form_with_server_actions_8.png)
+
+[<img src="./pics/form_with_server_actions_9.png" width="75%"/>](./pics/form_with_server_actions_9.png)
+
+[<img src="./pics/form_with_server_actions_10.png" width="75%"/>](./pics/form_with_server_actions_10.png)
+
+[<img src="./pics/form_with_server_actions_11.png" width="75%"/>](./pics/form_with_server_actions_11.png)
+
+[<img src="./pics/form_with_server_actions_12.png" width="75%"/>](./pics/form_with_server_actions_12.png)
+
+[<img src="./pics/form_with_server_actions_13.png" width="75%"/>](./pics/form_with_server_actions_13.png)
+
+[<img src="./pics/form_with_server_actions_14.png" width="75%"/>](./pics/form_with_server_actions_14.png)
+
+[<img src="./pics/form_with_server_actions_15.png" width="75%"/>](./pics/form_with_server_actions_15.png)
