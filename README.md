@@ -1491,3 +1491,5 @@
 [<img src="./pics/useActionState_10.png" width="75%"/>](./pics/useActionState_10.png)
 
 # useFormStatus vs useActionState
+
+[<img src="./pics/useFormStatus_vs_useActionState_1.png" width="75%"/>](./pics/useFormStatus_vs_useActionState_1.png)
