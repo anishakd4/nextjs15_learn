@@ -1462,3 +1462,32 @@
 [<img src="./pics/pending_state_with_useformstatus_4.png" width="75%"/>](./pics/pending_state_with_useformstatus_4.png)
 
 [<img src="./pics/pending_state_with_useformstatus_5.png" width="75%"/>](./pics/pending_state_with_useformstatus_5.png)
+
+# Form Validation with useActionState & Separating Server Actions
+
+- `isPending` value is optional we are already using `useFormStatus`.
+- using `useActionState` in a server component will throw an error.
+- "use client" at the top will throw a different error. It is not allowed define inline "use server" annotated server actions in client components.
+- The trick is to separate server action into its own file keeping our server side logic cleanly separated from our client side components.
+
+[<img src="./pics/useActionState_1.png" width="75%"/>](./pics/useActionState_1.png)
+
+[<img src="./pics/useActionState_2.png" width="75%"/>](./pics/useActionState_2.png)
+
+[<img src="./pics/useActionState_3.png" width="75%"/>](./pics/useActionState_3.png)
+
+[<img src="./pics/useActionState_4.png" width="75%"/>](./pics/useActionState_4.png)
+
+[<img src="./pics/useActionState_5.png" width="75%"/>](./pics/useActionState_5.png)
+
+[<img src="./pics/useActionState_6.png" width="75%"/>](./pics/useActionState_6.png)
+
+[<img src="./pics/useActionState_7.png" width="75%"/>](./pics/useActionState_7.png)
+
+[<img src="./pics/useActionState_8.png" width="75%"/>](./pics/useActionState_8.png)
+
+[<img src="./pics/useActionState_9.png" width="75%"/>](./pics/useActionState_9.png)
+
+[<img src="./pics/useActionState_10.png" width="75%"/>](./pics/useActionState_10.png)
+
+# useFormStatus vs useActionState
