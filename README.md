@@ -1493,3 +1493,38 @@
 # useFormStatus vs useActionState
 
 [<img src="./pics/useFormStatus_vs_useActionState_1.png" width="75%"/>](./pics/useFormStatus_vs_useActionState_1.png)
+
+# Update Server Action
+
+- We can not use the await keyword as client components can't be async components.
+- We solve this async issue we split data fetching into a server component and form logic into a client component.
+- From the server component we passed product details as prop to the client component.
+- The database function required the product id which was not available in the formData, we used the bind method to pass the id argument without exposing it the HTML.
+
+[<img src="./pics/update_server_action_1.png" width="75%"/>](./pics/update_server_action_1.png)
+
+[<img src="./pics/update_server_action_2.png" width="75%"/>](./pics/update_server_action_2.png)
+
+[<img src="./pics/update_server_action_3.png" width="75%"/>](./pics/update_server_action_3.png)
+
+[<img src="./pics/update_server_action_4.png" width="75%"/>](./pics/update_server_action_4.png)
+
+[<img src="./pics/update_server_action_5.png" width="75%"/>](./pics/update_server_action_5.png)
+
+[<img src="./pics/update_server_action_6.png" width="75%"/>](./pics/update_server_action_6.png)
+
+[<img src="./pics/update_server_action_7.png" width="75%"/>](./pics/update_server_action_7.png)
+
+[<img src="./pics/update_server_action_8.png" width="75%"/>](./pics/update_server_action_8.png)
+
+[<img src="./pics/update_server_action_9.png" width="75%"/>](./pics/update_server_action_9.png)
+
+[<img src="./pics/update_server_action_10.png" width="75%"/>](./pics/update_server_action_10.png)
+
+[<img src="./pics/update_server_action_11.png" width="75%"/>](./pics/update_server_action_11.png)
+
+[<img src="./pics/update_server_action_12.png" width="75%"/>](./pics/update_server_action_12.png)
+
+[<img src="./pics/update_server_action_13.png" width="75%"/>](./pics/update_server_action_13.png)
+
+[<img src="./pics/update_server_action_14.png" width="75%"/>](./pics/update_server_action_14.png)
