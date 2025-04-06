@@ -1528,3 +1528,17 @@
 [<img src="./pics/update_server_action_13.png" width="75%"/>](./pics/update_server_action_13.png)
 
 [<img src="./pics/update_server_action_14.png" width="75%"/>](./pics/update_server_action_14.png)
+
+# Delete Server Action
+
+- If we add onclick function to delete button to call our server action then it would make our server action `/products-db` client component.
+- The solution is to wrap our component in a form element.
+- After deleting a product we need to refresh our `/products-db` route. By using `revalidatePath` we are telling nextjs to refetch data for `/products-db` path after deletion
+
+[<img src="./pics/delete_server_action_1.png" width="75%"/>](./pics/delete_server_action_1.png)
+
+[<img src="./pics/delete_server_action_2.png" width="75%"/>](./pics/delete_server_action_2.png)
+
+[<img src="./pics/delete_server_action_3.png" width="75%"/>](./pics/delete_server_action_3.png)
+
+[<img src="./pics/delete_server_action_4.png" width="75%"/>](./pics/delete_server_action_4.png)
