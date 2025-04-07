@@ -1542,3 +1542,29 @@
 [<img src="./pics/delete_server_action_3.png" width="75%"/>](./pics/delete_server_action_3.png)
 
 [<img src="./pics/delete_server_action_4.png" width="75%"/>](./pics/delete_server_action_4.png)
+
+# Optimistic Updates
+
+- For our example when user clicks on delete button, instead of the 1.5 seconds delay to show the deletion we will remove the product right away from the list.
+- useOptimistic hook returns two things, first is the resulting optimistic state. second is a function to trigger optimistic update.
+- As we will get the error for using hook in the server component, the solution is to separate our data fetching from our data mutation logic.
+
+[<img src="./pics/optimistic_update_1.png" width="75%"/>](./pics/optimistic_update_1.png)
+
+[<img src="./pics/optimistic_update_2.png" width="75%"/>](./pics/optimistic_update_2.png)
+
+[<img src="./pics/optimistic_update_3.png" width="75%"/>](./pics/optimistic_update_3.png)
+
+[<img src="./pics/optimistic_update_4.png" width="75%"/>](./pics/optimistic_update_4.png)
+
+[<img src="./pics/optimistic_update_5.png" width="75%"/>](./pics/optimistic_update_5.png)
+
+[<img src="./pics/optimistic_update_6.png" width="75%"/>](./pics/optimistic_update_6.png)
+
+[<img src="./pics/optimistic_update_7.png" width="75%"/>](./pics/optimistic_update_7.png)
+
+[<img src="./pics/optimistic_update_8.png" width="75%"/>](./pics/optimistic_update_8.png)
+
+[<img src="./pics/optimistic_update_9.png" width="75%"/>](./pics/optimistic_update_9.png)
+
+[<img src="./pics/optimistic_update_10.png" width="75%"/>](./pics/optimistic_update_10.png)
