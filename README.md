@@ -1568,3 +1568,38 @@
 [<img src="./pics/optimistic_update_9.png" width="75%"/>](./pics/optimistic_update_9.png)
 
 [<img src="./pics/optimistic_update_10.png" width="75%"/>](./pics/optimistic_update_10.png)
+
+# Form Component
+
+- Form component also supports server actions
+- Form component in nextjs is a new component in nextjs that extends the HTML form element and provides a lot of powerful features like pre-fetching loading UI, client side navigation on form submission and progressive enhancements out of the box.
+
+[<img src="./pics/form_component_1.png" width="75%"/>](./pics/form_component_1.png)
+
+[<img src="./pics/form_component_2.png" width="75%"/>](./pics/form_component_2.png)
+
+[<img src="./pics/form_component_3.png" width="75%"/>](./pics/form_component_3.png)
+
+[<img src="./pics/form_component_4.png" width="75%"/>](./pics/form_component_4.png)
+
+[<img src="./pics/form_component_5.png" width="75%"/>](./pics/form_component_5.png)
+
+[<img src="./pics/form_component_6.png" width="75%"/>](./pics/form_component_6.png)
+
+[<img src="./pics/form_component_7.png" width="75%"/>](./pics/form_component_7.png)
+
+[<img src="./pics/form_component_8.png" width="75%"/>](./pics/form_component_8.png)
+
+[<img src="./pics/form_component_9.png" width="75%"/>](./pics/form_component_9.png)
+
+[<img src="./pics/form_component_10.png" width="75%"/>](./pics/form_component_10.png)
+
+[<img src="./pics/form_component_11.png" width="75%"/>](./pics/form_component_11.png)
+
+[<img src="./pics/form_component_12.png" width="75%"/>](./pics/form_component_12.png)
+
+[<img src="./pics/form_component_13.png" width="75%"/>](./pics/form_component_13.png)
+
+[<img src="./pics/form_component_14.png" width="75%"/>](./pics/form_component_14.png)
+
+# Authentication
